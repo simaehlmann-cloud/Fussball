@@ -1,0 +1,16 @@
+# Vom Bau erzeugt - gehoert nicht ins Repository
+node_modules/
+android/
+www/
+.gradle/
+
+# Enthaelt die Adresse der gemeinsamen Ablage. Wird beim Bau der APK aus
+# dem Secret SYNC_URL erzeugt und darf nie eingecheckt werden.
+config.js
+
+# Der Quelltext der App (App.jsx) gehoert bewusst NICHT hierher, sondern
+# nur auf den eigenen Rechner - siehe README.
+
+# Betriebssystem-Krempel
+.DS_Store
+Thumbs.db
