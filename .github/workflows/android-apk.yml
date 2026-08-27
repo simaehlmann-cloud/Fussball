@@ -1,0 +1,135 @@
+name: Android-App bauen
+
+# Laeuft automatisch, sobald sich eine Datei der App aendert -
+# und zusaetzlich jederzeit von Hand ueber "Actions" -> "Run workflow".
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'styles.css'
+      - 'taktik/**'
+      - 'manifest.webmanifest'
+      - 'config.js'
+      - '*.png'
+      - 'assets/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'capacitor.config.json'
+      - '.github/workflows/android-apk.yml'
+
+permissions:
+  contents: read
+
+# Wird waehrend eines Laufs erneut hochgeladen, ersetzt der neue Lauf den alten
+concurrency:
+  group: apk-bau
+  cancel-in-progress: true
+
+jobs:
+  apk:
+    name: APK erzeugen
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dateien holen
+        uses: actions/checkout@v4
+        with:
+          # NEU: Der Lauf braucht keinen Schreibzugriff auf das Repository.
+          # Ohne diese Zeile bleibt der Zugriffsschluessel waehrend des gesamten
+          # Laufs auf der Maschine liegen - auch waehrend "npm install" fremden
+          # Paketcode ausfuehrt.
+          persist-credentials: false
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Java einrichten
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      # NEU: Bricht mit klarer Meldung ab, statt spaeter unverstaendlich zu scheitern.
+      - name: Vollstaendigkeit pruefen
+        run: |
+          fehlt=""
+          for f in index.html app.js styles.css manifest.webmanifest capacitor.config.json package.json; do
+            [ -f "$f" ] || fehlt="$fehlt $f"
+          done
+          if [ -n "$fehlt" ]; then
+            echo "::error::Diese Dateien fehlen im Repository:$fehlt"
+            exit 1
+          fi
+          echo "Alle Pflichtdateien vorhanden."
+
+      - name: Web-Dateien einsammeln
+        run: |
+          mkdir -p www
+          cp index.html app.js styles.css manifest.webmanifest www/
+          cp *.png www/
+          # Taktiktafel, falls vorhanden. Sie liegt bewusst in einem
+          # Unterordner: ihr Service Worker beherrscht dann nur diesen
+          # Ordner und kann die Kaderplaner-Dateien nicht zwischenspeichern.
+          if [ -d taktik ]; then
+            cp -r taktik www/
+            echo "Taktiktafel mitgenommen ($(find taktik -type f | wc -l) Dateien)"
+          else
+            echo "Kein Ordner taktik/ - die App zeigt dort einen Hinweis."
+          fi
+          ls -la www
+
+      - name: Ablage-Adresse hinterlegen (optional)
+        # Nur wirksam, wenn unter Settings -> Secrets -> Actions ein Secret
+        # namens SYNC_URL angelegt wurde. Ohne Secret bleibt alles wie bisher.
+        env:
+          SYNC_URL: ${{ secrets.SYNC_URL }}
+        run: |
+          if [ -n "$SYNC_URL" ]; then
+            printf 'window.__U11_SYNC_URL__ = %s;\n' "$(node -e 'process.stdout.write(JSON.stringify(process.env.SYNC_URL))')" > www/config.js
+            echo "Adresse hinterlegt (Laenge: ${#SYNC_URL} Zeichen)"
+          else
+            echo "Kein Secret SYNC_URL gesetzt - die App fragt die Adresse beim ersten Start ab."
+          fi
+
+      - name: Abhaengigkeiten installieren
+        # GEAENDERT: Mit package-lock.json wird exakt derselbe Stand installiert wie
+        # beim letzten funktionierenden Bau ("npm ci"). Ohne Lockdatei zieht
+        # "npm install" bei jedem Lauf die neuesten passenden Unterversionen -
+        # das ist genau der Weg, ueber den manipulierte Pakete in Builds gelangen.
+        # Empfehlung: package-lock.json aus .gitignore herausnehmen und einchecken.
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci --no-audit --no-fund
+          else
+            echo "::warning::Keine package-lock.json im Repository - der Bau ist nicht reproduzierbar."
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Android-Projekt anlegen
+        run: npx cap add android
+
+      - name: App-Symbole erzeugen
+        run: npx @capacitor/assets generate --android --iconBackgroundColor '#ffffff' --iconBackgroundColorDark '#ffffff'
+        continue-on-error: true
+
+      - name: Web-Dateien in das Projekt kopieren
+        run: npx cap sync android
+
+      - name: APK bauen
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+
+      - name: APK zum Download bereitstellen
+        uses: actions/upload-artifact@v4
+        with:
+          name: u11-kaderplaner-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 90
