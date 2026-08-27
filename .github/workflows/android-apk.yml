@@ -12,6 +12,8 @@ on:
       - 'app.js'
       - 'styles.css'
       - 'taktik/**'
+      - 'uebungen.json'
+      - 'sw.js'
       - 'manifest.webmanifest'
       - 'config.js'
       - '*.png'
@@ -58,7 +60,7 @@ jobs:
       - name: Vollstaendigkeit pruefen
         run: |
           fehlt=""
-          for f in index.html app.js styles.css manifest.webmanifest capacitor.config.json package.json; do
+          for f in index.html app.js styles.css manifest.webmanifest uebungen.json capacitor.config.json package.json; do
             [ -f "$f" ] || fehlt="$fehlt $f"
           done
           if [ -n "$fehlt" ]; then
@@ -70,7 +72,10 @@ jobs:
       - name: Web-Dateien einsammeln
         run: |
           mkdir -p www
-          cp index.html app.js styles.css manifest.webmanifest www/
+          cp index.html app.js styles.css manifest.webmanifest uebungen.json www/
+          # sw.js kommt bewusst NICHT mit: In der Android-App liefert
+          # Capacitor die Dateien ohnehin vom Gerät, und die App meldet den
+          # Service Worker dort gar nicht erst an.
           cp *.png www/
           # Taktiktafel, falls vorhanden. Sie liegt bewusst in einem
           # Unterordner: ihr Service Worker beherrscht dann nur diesen
