@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+  <!--
+    NEU · Content-Security-Policy.
+    Zweck: Selbst wenn irgendwo Fremdtext in die Seite gelangt, kann daraus kein
+    fremdes Skript geladen und keine Datei zu einem fremden Server geschickt werden,
+    das nicht ueber connect-src erlaubt ist.
+
+    Erlaeuterung der einzelnen Punkte:
+      default-src 'self'   nur Dateien aus diesem Verzeichnis
+      script-src           'unsafe-inline' bleibt noetig, weil Capacitor beim Start
+                           der Android-App eigenen Code in die Seite einsetzt.
+                           Externe Skripte sind trotzdem gesperrt - das ist der Teil,
+                           auf den es ankommt.
+      connect-src https:   die Ablage-Adresse ist frei waehlbar, deshalb pauschal
+                           https - aber eben kein http und kein ws.
+      img-src ... blob:    fuer das Wappen und den Sicherungs-Download
+      object-src 'none'    keine Plugins/Flash-artigen Einbettungen
+      base-uri 'none'      verhindert das Umbiegen aller relativen Pfade
+      form-action 'none'   die App hat keine Formulare, die irgendwohin senden
+
+    Hinweis: frame-ancestors und HSTS wirken nur als HTTP-Kopfzeile, nicht im
+    meta-Tag. Auf GitHub Pages sind sie deshalb nicht setzbar.
+  -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' data: blob:;
+    font-src 'self';
+    connect-src https:;
+    object-src 'none';
+    base-uri 'none';
+    form-action 'none'
+  " />
+  <!-- NEU: keine Adressweitergabe an fremde Server (z. B. beim Maps-Link) -->
+  <meta name="referrer" content="no-referrer" />
+
+  <title>SV Weyhe · U11 Kaderplaner</title>
+  <meta name="description" content="Spieltage, Zusagen und Kader für zwei U11-Mannschaften — mit Kontrolle der Festspiel-Regel." />
+  <meta name="theme-color" content="#171717" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="U11 Kader" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" href="icon-192.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preload" as="image" href="wappen.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-neutral-100">
+  <div id="root"></div>
+  <noscript>
+    <p style="font-family: system-ui; padding: 24px; text-align: center;">
+      Für den Kaderplaner muss JavaScript aktiviert sein.
+    </p>
+  </noscript>
+  <!--
+    Optional: wird beim Bau der Android-App erzeugt, im Web schlicht nicht vorhanden.
+    GEAENDERT: Der frühere Inline-Handler onerror="void 0" ist entfernt. Er hat nichts
+    verhindert (ein fehlendes Skript loest ohnehin keinen Abbruch aus), war aber der
+    einzige Grund, warum die Seite Inline-Handler ueberhaupt gebraucht haette.
+    Fehlt config.js, steht in der Browser-Konsole eine 404-Meldung - ohne Folgen.
+  -->
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

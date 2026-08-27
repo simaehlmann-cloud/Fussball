@@ -1,0 +1,11 @@
+{
+  "appId": "de.svweyhe.u11kaderplaner",
+  "appName": "U11 Kader",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

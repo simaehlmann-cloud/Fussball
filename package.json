@@ -1,0 +1,14 @@
+{
+  "name": "u11-kaderplaner",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Kaderplanung für zwei U11-Mannschaften des SV Weyhe, mit Prüfung der NFV-Festspielregel.",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/share": "^6.0.3"
+  }
+}
