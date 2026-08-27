@@ -24,6 +24,8 @@ Wer sie zu zweit nutzen will, hinterlegt eine gemeinsame Ablage — siehe `ANLEI
 | `taktik/` | Platz für die Taktiktafel — siehe unten |
 | `.github/workflows/android-apk.yml` | baut die Android-App |
 | `capacitor.config.json`, `package.json` | Einstellungen für den APK-Bau |
+| `sw.js` | macht die App offlinefähig (netzwerk-zuerst) |
+| `uebungen.json` | Übungskatalog für den Session-Builder |
 | `.nojekyll` | verhindert, dass GitHub die Dateien umbaut |
 | `ANLEITUNG.md` | Einrichtung, Bedienung, Firebase |
 

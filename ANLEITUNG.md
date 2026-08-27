@@ -285,6 +285,90 @@ verschwindet er aus der Leiste; bereits erfasste Trainings bleiben erhalten.
 
 ---
 
+## Einheit planen (Session-Builder)
+
+Öffne unter *Training → Termine* einen Termin. Unter der Anwesenheit steht **Einheit
+planen**.
+
+### Phasen frei einteilen
+
+Voreingestellt sind **Aufwärmen, Hauptteil, Abschluss** — das ist aber nur ein Vorschlag.
+Über **Phasen bearbeiten** kannst du:
+
+- beliebig viele Abschnitte anlegen (vier, fünf, so viele du brauchst)
+- sie frei benennen, etwa „Ankommen", „Torschussblock", „Cool-down", „Ansprache"
+- die Reihenfolge ändern und einzelne wieder entfernen
+
+Wird eine Phase entfernt, **wandern ihre Bausteine in die erste Phase** — sie gehen nicht
+verloren. Sollte doch einmal ein Baustein ohne gültige Phase dastehen (etwa nach einem
+Abgleich mit dem Trainerteam), zeigt die App ihn oben in einem eigenen Kasten an, statt ihn
+verschwinden zu lassen.
+
+Jede Einheit führt ihre eigene Phasenliste. Du kannst also für das Dienstagstraining eine
+andere Einteilung nutzen als für das Freitagstraining.
+
+### Zeiten und Gesamtdauer
+
+Je Phase kommen Bausteine hinein — entweder **aus dem Katalog** (131 ausgearbeitete Übungen
+mit Ablauf, Coaching-Punkten und Varianten) oder als **eigener Baustein** mit freiem Titel,
+etwa „Trinkpause" oder „Ansprache".
+
+Die Dauer je Baustein tippst du direkt ein. Daraus ergibt sich alles Weitere:
+
+- **Gesamtdauer** der Einheit, groß oben — die Summe aller Bausteine
+- **Endzeit**, sobald der Termin eine Uhrzeit hat („Ende 19:00 Uhr")
+- **Dauer je Phase** und ein Balken, der die Verteilung zeigt
+- ein optionales **Ziel**: Trägst du eine Wunschdauer ein, warnt die App beim Überziehen
+  und nennt sonst die verbleibende Zeit. Lässt du das Feld leer, rechnet sie einfach
+  zusammen, was du geplant hast.
+
+Über **Einheit teilen** bekommst du den fertigen Ablauf als Text für die Zwischenablage
+oder WhatsApp — mit Zeiten je Phase und Gesamtdauer.
+
+### Der Übungskatalog
+
+Der Katalog enthält **131 Übungen** in neun Kategorien: Erwärmung & Kognition, Passspiel &
+Ballkontrolle, Zweikampf/Dribbling & 1v1, Torschuss & Flügelspiel, Spielformen/Taktik &
+Gegenpressing, Lauf- & Sprintspiele, Standardsituationen, Abschlüsse & Fun-Spiele sowie
+Torwarttraining. Jede Übung nennt Material, Feldgröße, Spielerzahl, Ablauf, Coaching-Punkte
+und Varianten; viele tragen zusätzlich Schlagworte wie „Sprint", „Rondo" oder „E-Jugend",
+nach denen sich ebenfalls suchen lässt.
+
+Die Übungen liegen in der Datei **`uebungen.json`** neben der App — nicht im Programmcode.
+Das hat drei Gründe: Er wird erst geladen, wenn du ihn brauchst; er lässt sich erweitern,
+ohne die App neu zu bauen; und Übungen sind Inhalt, kein Programm.
+
+**Eigene Übungen ergänzen:** Die Datei bei GitHub öffnen, Stift-Symbol, einen Eintrag nach
+demselben Muster anhängen, speichern. Jede Übung braucht mindestens:
+
+```json
+{
+  "id": "eigen-01",
+  "titel": "Name der Übung",
+  "kategorie": "Passspiel & Ballkontrolle",
+  "phase": "hauptteil",
+  "dauerMin": 10,
+  "dauerMax": 15,
+  "spielerMin": 8,
+  "spielerMax": 16,
+  "feld": "20×20 m",
+  "material": "8 Hütchen, 2 Bälle",
+  "ablauf": "Beschreibung …",
+  "coaching": ["Punkt 1", "Punkt 2"],
+  "varianten": ["Steigerung 1"],
+  "tags": ["Passen", "E-Jugend"]
+}
+```
+
+`phase` ist einer von `aufwaermen`, `hauptteil`, `abschluss` — sie steuert nur, welche
+Übungen bei der Auswahl oben stehen. Die `id` muss eindeutig sein; für eigene Einträge
+bietet sich ein Präfix wie `eigen-` an, dann kollidiert nichts mit dem Katalog.
+
+Ist die Datei fehlerhaft, meldet die App das beim Öffnen der Auswahl und du kannst weiter
+eigene Bausteine anlegen. Kaputtgehen kann dabei nichts.
+
+---
+
 ## Taktiktafel einbinden
 
 Die Taktiktafel ist eine eigenständige App. Für die Einbindung wird eine **Kopie** in einem
@@ -302,6 +386,10 @@ Unterordner abgelegt — das Original-Repository bleibt unangetastet.
 sein Verzeichnis und alles darunter. Läge er neben `app.js`, würde er die Kaderplaner-
 Dateien dauerhaft zwischenspeichern — deine Änderungen kämen dann bei niemandem mehr an,
 und du würdest es nicht einmal merken, weil bei dir alles richtig aussieht.
+
+Über den Knopf unten rechts im Rahmen lässt sich die Taktiktafel auf **Vollbild**
+schalten — dann verschwinden Kopfzeile und Reiter, und das Spielfeld bekommt den
+ganzen Schirm. Zurück geht es über das Kreuz oben rechts oder die Zurück-Taste.
 
 Fehlt der Ordner, zeigt der Bereich einen Hinweis. Die App funktioniert ohne ihn
 vollständig.
@@ -335,6 +423,53 @@ Beschreibung, der Spielort als Ort.
 Bewusst eine Datei und kein Kalender-Abonnement: Ein Abo bräuchte eine öffentlich
 erreichbare Adresse, in der die Namen der Kinder stehen. Nach neuen Spieltagen die Datei
 einfach erneut erzeugen.
+
+---
+
+## Offline am Sportplatz
+
+Die Web-Fassung legt sich beim ersten Aufruf im Browser ab und **startet danach auch ohne
+Netz**. Eingaben bleiben auf dem Gerät und werden nachgereicht, sobald wieder Empfang da
+ist. Die Android-App war ohnehin nie darauf angewiesen.
+
+Oben rechts steht dann **„offline"** statt einer Uhrzeit — grau, nicht rot. Das ist ein
+Unterschied mit Absicht: „offline" heißt kein Netz und ist am Sportplatz normal, „Fehler"
+heißt, dass die Ablage nicht antwortet, obwohl Netz da ist.
+
+**Eine veraltete App kann es dadurch nicht geben.** Solange Netz vorhanden ist, wird immer
+die aktuelle Fassung geladen; die abgelegte Kopie dient nur als Rückfallebene. Bei
+schlechtem Empfang wartet die App höchstens drei Sekunden und nimmt dann die Kopie — ein
+schwaches Netz darf nicht schlimmer sein als gar keines.
+
+Falls du trotzdem einmal den Verdacht hast, eine alte Fassung zu sehen: *Optionen → Offline
+nutzen → Zwischenspeicher leeren und neu laden.* Deine Daten sind davon nicht betroffen.
+
+---
+
+## Getrennt von einer älteren Fassung
+
+Diese Fassung speichert unter eigenen Schlüsseln (`u11-kaderplaner-v2-…`). Das ist kein
+Selbstzweck, sondern behebt eine Falle:
+
+Der Browser trennt gespeicherte Daten nach **Domain**, nicht nach Pfad. Zwei
+GitHub-Pages-Projekte desselben Kontos —
+`…github.io/alt/` und `…github.io/neu/` — teilen sich deshalb denselben Speicher. Ohne
+eigene Schlüssel würde die neue Fassung Daten **und Adresse der Ablage** der alten erben.
+Und die alte Fassung, einmal wieder geöffnet, würde die ihr unbekannten Felder — Ergebnis,
+Torschützen, Notizen, Trainings — beim Einlesen wegschneiden und den beschnittenen Stand
+zurückschreiben. Still, ohne Meldung, auch in die gemeinsame Ablage.
+
+**Beim ersten Start** fragt die App einmal, ob sie den Stand der älteren Fassung übernehmen
+soll, und nennt dabei die Zahlen. Die **Adresse der Ablage wird bewusst nicht mit
+übernommen** — die trägst du einmal neu ein. So ist ausgeschlossen, dass alt und neu im
+selben Datenbestand arbeiten.
+
+Der alte Speicher wird dabei nur gelesen, nie verändert. Die alte Fassung bleibt also
+funktionsfähig, falls du zurück willst.
+
+**Empfehlung:** Stell im alten Repository *Settings → Pages → Source* auf **None**. Dann
+kann die alte Adresse niemand mehr versehentlich öffnen — auch niemand mit einem alten
+Lesezeichen. Löschen musst du das Repository dafür nicht.
 
 ---
 

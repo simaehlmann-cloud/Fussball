@@ -1,0 +1,3783 @@
+{
+ "version": 4,
+ "quelle": "Uebungsdatenbank Fussball - eigener Katalog, erweitert",
+ "kategorien": [
+  {
+   "name": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "anzahl": 13
+  },
+  {
+   "name": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "anzahl": 14
+  },
+  {
+   "name": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "anzahl": 14
+  },
+  {
+   "name": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "anzahl": 15
+  },
+  {
+   "name": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "anzahl": 15
+  },
+  {
+   "name": "Standardsituationen",
+   "phase": "hauptteil",
+   "anzahl": 18
+  },
+  {
+   "name": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "anzahl": 14
+  },
+  {
+   "name": "Torwarttraining",
+   "phase": "hauptteil",
+   "anzahl": 15
+  },
+  {
+   "name": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "anzahl": 13
+  }
+ ],
+ "uebungen": [
+  {
+   "id": "db-01",
+   "titel": "Fänger-Kette mit Ball",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler",
+   "feld": "20×20 m",
+   "material": "2 Bälle, 2 Leibchen für Fänger",
+   "ablauf": "Zwei Fänger versuchen, die Feldspieler abzuschlagen. Ein Spieler mit Ball in den Händen darf nicht abgeschlagen werden. Da es nur 2 Bälle gibt, müssen die freien Spieler lautstark den Ball einfordern und ihn sich schnell gegenseitig zuwerfen, um bedrohte Mitspieler zu retten.",
+   "coaching": [
+    "Offene Körperhaltung & ständiger Schulterblick",
+    "Laute, eindeutige Kommunikation ('Hier!', 'Frei!')",
+    "Schnelle Vororientierung im freien Raum"
+   ],
+   "varianten": [
+    "Passen mit dem Fuß statt Werfen per Hand",
+    "Erweiterung auf 3 Fänger bei größeren Gruppen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-02",
+   "titel": "Kognition-Farb-Dribbeln",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 10,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "dauerText": "10 Min.",
+   "spielerText": "6–16 Spieler",
+   "feld": "25×25 m",
+   "material": "1 Ball pro Spieler, 4 verschiedenfarbige Hütchen-Tore",
+   "ablauf": "Jeder Spieler dribbelt frei im Raum. Der Trainer ruft eine Hütchenfarbe (z. B. 'Rot!'). Alle Spieler müssen sofort mit höchstem Tempo durch ein rotes Hütchentor dribbeln und auf der anderen Seite eine Finte ausführen.",
+   "coaching": [
+    "Enges Dribbeln mit vielen Kontakten",
+    "Kopf hoch vom Ball beim Tempowechsel",
+    "Explosiver Antritt nach dem Signal"
+   ],
+   "varianten": [
+    "Signal-Umkehr: Bei 'Rot' darf man NICHT durch rot dribbeln",
+    "Zahlensignale statt Farben (1 = Finte, 2 = Richtungswechsel, 3 = Torausschnitt)"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-03",
+   "titel": "Pass- & Fang-Gitter (Hand-Fuß-Wechsel)",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 12,
+   "dauerMax": 12,
+   "spielerMin": 10,
+   "spielerMax": 14,
+   "dauerText": "12 Min.",
+   "spielerText": "10–14 Spieler",
+   "feld": "20×20 m",
+   "material": "4–6 Bälle, Hütchen zur Feldmarkierung",
+   "ablauf": "Die Hälfte der Spieler bewegt sich ohne Ball, die andere Hälfte mit Ball. In Phase 1 bewegen sich die Spieler mit Ball und werfen ihn einem freien Mitspieler zu. Auf Trainerkommando Wechsel auf Phase 2: Flache Pässe mit dem Fuß und maximal 2 Kontakten.",
+   "coaching": [
+    "Ständige Bewegung ohne Ball in freie Räume",
+    "Saubere Fußinnenkontakt-Pässe",
+    "Blickkontakt vor der Ballabgabe"
+   ],
+   "varianten": [
+    "Einfügen eines 'Fängers', der Pässe abfangen muss",
+    "Direktspiel (1 Kontakt) im Fußpass-Modus"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-04",
+   "titel": "Tunnelsystem & Grätschen-Fangen",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 10,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "dauerText": "10 Min.",
+   "spielerText": "8–16 Spieler",
+   "feld": "20×20 m",
+   "material": "2 Leibchen, 3–4 Bälle",
+   "ablauf": "Zwei Fänger versuchen Spieler abzuschlagen. Wer abgeschlagen wird, bleibt mit breitbeiniger Grätsche stehen. Befreit werden kann ein gefangener Spieler nur, indem ein Mitspieler einen Ball flach durch seine Beine passt.",
+   "coaching": [
+    "Hilfsbereitschaft & Reaktionsschnelligkeit",
+    "Präzises flaches Anspiel durch die Beine",
+    "Fänger müssen Räume verengen"
+   ],
+   "varianten": [
+    "Zeitstopp: Wie lange braucht das Fänger-Team, um alle zu fangen?",
+    "Verdopplung der Bälle für schnellere Befreiung"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-05",
+   "titel": "Kopfball-Reaktions-Tick",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 0,
+   "spielerMax": 0,
+   "dauerText": "8–10 Min.",
+   "spielerText": "Paarweise",
+   "feld": "Freies Feld",
+   "material": "1 Ball pro Paar",
+   "ablauf": "Spieler A wirft Spieler B den Ball zu und ruft gleichzeitig laut entweder 'Kopf' oder 'Hand'. Das Kommando gibt die ENTGEGENGESETZTE Aktion vor: Bei 'Kopf' muss B den Ball mit der Hand fangen. Bei 'Hand' muss B den Ball köpfen.",
+   "coaching": [
+    "Kognitive Schnelligkeit & Konzentration",
+    "Präzises Zuspiel auf Brust- und Kopfhöhe",
+    "Lockerer Stand für schnelle Reaktion"
+   ],
+   "varianten": [
+    "Wettbewerb: Welches Paar schafft 10 fehlerfreie Aktionen in Serie?",
+    "Reaktionszeit verkürzen durch geringeren Abstand"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-06",
+   "titel": "Kognitives 2-Bälle-Passspiel (Life Kinetik)",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 12,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "12 Min.",
+   "spielerText": "8–12 Spieler",
+   "feld": "15×15 m",
+   "material": "1 Fußball, 1 Tennisball (oder Basketball) pro 4er-Gruppe",
+   "ablauf": "In 4er-Gruppen passen sich die Spieler einen Fußball mit den Füßen zu. ZEITGLEICH wird ein Tennisball mit den Händen im Uhrzeigersinn von Spieler zu Spieler geworfen. Beide Bälle müssen flüssig in Bewegung bleiben.",
+   "coaching": [
+    "Multitasking & Aufmerksamkeitsteilung",
+    "Vororientierung vor dem Fuß-Pass",
+    "Peripheres Sehen schulen"
+   ],
+   "varianten": [
+    "Tennisball gegen den Uhrzeigersinn werfen",
+    "Bei Ballabgabe mit dem Fuß zusätzlich die eigene Trikotnummer rufen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-07",
+   "titel": "3-Farben-Kommando-Rondo",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 9,
+   "spielerMax": 9,
+   "dauerText": "15 Min.",
+   "spielerText": "9 Spieler",
+   "feld": "12×12 m",
+   "material": "1 Ball, Leibchen in 3 Farben (3x Rot, 3x Blau, 3x Gelb)",
+   "ablauf": "9 Spieler im Kreis playing Rondo. Der Ball darf nur in der strikten Farb-Abfolge Rot -> Blau -> Gelb -> Rot gepasst werden. Wer die Reihenfolge bricht oder einen Fehlpass spielt, geht als Jäger in die Mitte.",
+   "coaching": [
+    "Scannen der Mitspielerfarben vor Ballannahme",
+    "Kopf vom Ball lösen",
+    "Kommunikation und Orientierung"
+   ],
+   "varianten": [
+    "Maximal 2 Ballkontakte erlaubt",
+    "Einfügen von 2 Jägern in der Mitte für höheren Druck"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-08",
+   "titel": "Rondo 4 gegen 2 mit Zonenwechsel",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "15 Min.",
+   "spielerText": "8–12 Spieler",
+   "feld": "Zwei 10×10 m Felder",
+   "material": "1 Ball, 8 Hütchen",
+   "ablauf": "Im ersten Feld spielen 4 Außenspieler gegen 2 Jäger auf Ballhalten. Nach 5 erfolgreichen Pässen am Stück darf ein scharfer Verlagerungspass in das Nachbarfeld gespielt werden. 2 Spieler rücken blitzschnell nach.",
+   "coaching": [
+    "Offene Körperstellung vor der Ballannahme",
+    "Mut zu scharfen Schnittstellenpässen",
+    "Schnelles Nachrücken bei Zonenwechsel"
+   ],
+   "varianten": [
+    "Direktspiel (1-Kontakt) für die Außenspieler",
+    "Jäger dürfen bei Ballgewinn sofort aufs Minitor kontern"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-09",
+   "titel": "Y-Pass-Dreieck mit Auftaktbewegung",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 10,
+   "dauerText": "15 Min.",
+   "spielerText": "6–10 Spieler",
+   "feld": "15×15 m Y-Form",
+   "material": "1 Ball, 4 Hütchen",
+   "ablauf": "A passt flach auf B, B lässt auf A klatschen. A spielt einen tiefen Diagonallauf-Pass auf C. C dribbelt zügig zur Startposition A zurück. Alle Spieler rücken eine Position weiter (A -> B -> C -> A).",
+   "coaching": [
+    "Auftaktbewegung weg vom Gegenspieler (Hütchen)",
+    "Passqualität & Timing beim Klatschen-Lassen",
+    "Mitnahme des Balls in die Laufbewegung"
+   ],
+   "varianten": [
+    "Beidfüßige Ausführung (Wechsel der Y-Seite)",
+    "Wandpass-Kombination zwischen B und C einbauen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-10",
+   "titel": "Passschleife über den Dritten",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 18,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "15–18 Min.",
+   "spielerText": "8–12 Spieler",
+   "feld": "25×15 m",
+   "material": "2 Bälle, 6 Hütchen",
+   "ablauf": "Spieler A spielt steil auf B. B lässt den Ball direkt auf den entgegenkommenden C klatschen. C spielt einen präzisen Steckpass auf den gestarteten D. D läuft auf den Startpunkt durch.",
+   "coaching": [
+    "Timing des dritten Spielers (C) ist entscheidend",
+    "Passschärfe beim Steilpass",
+    "Kommunikation durch Blickkontakt"
+   ],
+   "varianten": [
+    "Wettbewerb zwischen zwei parallelen Schleifen auf Zeit",
+    "Abschluss auf ein Minitor am Ende der Schleife"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-11",
+   "titel": "Spanische Raute mit Farbschema",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 8,
+   "dauerText": "15 Min.",
+   "spielerText": "8 Spieler",
+   "feld": "12×12 m Raute",
+   "material": "1 Ball, 4 verschiedenfarbige Hütchen",
+   "ablauf": "Ball läuft in der Raute im Uhrzeigersinn. Bevor ein Spieler den Ball erhält, muss er laut die Farbe des Hütchens rufen, das diagonal gegenüberliegt. Dies erzwingt den Schulterblick vor der Ballaufnahme.",
+   "coaching": [
+    "Schulterblick vor der Ballannahme",
+    "Erster Kontakt in die neue Spielrichtung",
+    "Hohes Pass- und Umlauftempo"
+   ],
+   "varianten": [
+    "Richtungswechsel auf Pfiff des Trainers",
+    "Zwei Bälle gleichzeitig in der Raute laufen lassen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-12",
+   "titel": "Vertikalpass-Sektor (4v4 + 2 Wandspieler)",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 18,
+   "dauerMax": 20,
+   "spielerMin": 10,
+   "spielerMax": 10,
+   "dauerText": "18–20 Min.",
+   "spielerText": "10 Spieler",
+   "feld": "30×20 m (3 Zonen)",
+   "material": "Hütchen zur Zonenmarkierung, 1 Ball, Leibchen",
+   "ablauf": "Feld in 3 Zonen unterteilt. Abwehr- und Angriffszone sind besetzt, die Mittelzone bleibt frei. Ziel ist das Überspielen der Mittelzone durch flache Schnittstellenpässe auf die entgegenkommenden Wandspieler.",
+   "coaching": [
+    "Freilaufen im Schattenspiel des Gegners",
+    "Anspiel in den Fuß oder in den Lauf dosieren",
+    "Steil-Klatsch-Kombinationen"
+   ],
+   "varianten": [
+    "Wandspieler darf direkt in die Tiefe bedient werden",
+    "Kontaktniveau im Zentrum auf 2 Kontakte beschränken"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-13",
+   "titel": "1v1-Torduell aus der Drehung",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "15 Min.",
+   "spielerText": "8–12 Spieler + TW",
+   "feld": "20×15 m",
+   "material": "1 Großtor (oder 2 Minitore), Bälle",
+   "ablauf": "Stürmer A steht mit dem Rücken zum Tor am 16er-Rand. Verteidiger B steht 3m dahinter und passt den Ball zu A. Mit dem Pass darf A aufdrehen und das 1v1 suchen. B attackiert sofort voll.",
+   "coaching": [
+    "Aggressives Eindrehen mit dem ersten Kontakt",
+    "Körpertäuschung zum Aufdrehen nutzen",
+    "Ball mit dem Körper abschirmen"
+   ],
+   "varianten": [
+    "Verteidiger darf erst starten, wenn A den Ball berührt hat",
+    "Zeitlimit von 6 Sekunden für den Stürmer"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-14",
+   "titel": "1v1 auf 2 gegenseitige Minitore",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 10,
+   "dauerText": "15 Min.",
+   "spielerText": "6–10 Spieler",
+   "feld": "15×10 m",
+   "material": "4 Minitore (2 pro Seite)",
+   "ablauf": "Angreifer startet mit Ball gegen 1 Verteidiger. Der Angreifer kann auf zwei Tore der gegenüberliegenden Seite erzielen. Wird der Raum auf einer Seite eng, muss durch Finten der Richtungswechsel erzielt werden.",
+   "coaching": [
+    "Tempowechsel & Gewichtsverlagerung des Gegners nutzen",
+    "Explosiver Antritt in den freien Raum",
+    "Fokus auf die Lücke"
+   ],
+   "varianten": [
+    "Zeitlimit von 8 Sekunden pro Angriff",
+    "Bei Ballgewinn darf der Verteidiger sofort kontern"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-15",
+   "titel": "Dribbel-König im Hütchen-Labyrinth",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "dauerText": "12 Min.",
+   "spielerText": "8–16 Spieler",
+   "feld": "20×20 m",
+   "material": "1 Ball pro Spieler, 20–30 Hütchen ungeordnet im Raum",
+   "ablauf": "Spieler dribbeln frei durch ein eng abgestecktes Hütchenfeld. Bei Pfiff müssen alle Spieler innerhalb von 3 Sekunden so viele Hütchen wie möglich mit einer Finte umdribbeln. Wer ein Hütchen berührt, macht 3 Strecksprünge.",
+   "coaching": [
+    "Enge Ballführung mit Fußinnenseite/Außenseite",
+    "Hohe Frequenz der Ballkontakte",
+    "Blick vom Ball lösen"
+   ],
+   "varianten": [
+    "Dribbeln nur mit dem schwachen Fuß",
+    "Verfolgung durch 2 Fänger, die Bälle weggrätschen dürfen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-16",
+   "titel": "Doppelpass-Torschuss aus dem Rückraum",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 20,
+   "spielerMin": 8,
+   "spielerMax": 14,
+   "dauerText": "15–20 Min.",
+   "spielerText": "8–14 Spieler + 1 TW",
+   "feld": "Strafraum + 10m",
+   "material": "1 Großtor, 10–12 Bälle",
+   "ablauf": "Spieler A startet am Mittelkreis, passt auf Anspielder B am Strafraumrand. B lässt klug in den Lauf von A klatschen. A schließt mit maximal 2 Kontakten aus 16-18 Metern flach in die Ecken ab.",
+   "coaching": [
+    "Präzision vor Schussgewalt",
+    "Platzierter Abschluss mit der Innenseite oder dem Vollspann",
+    "Zweiter Kontakt muss direkt der Schuss sein"
+   ],
+   "varianten": [
+    "B legt nicht flach ab, sondern wirft einen Aufsetzer ab",
+    "Verteidiger startet von hinten und übt sanften Druck aus"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-17",
+   "titel": "Flanken- & Einlaufen-Kombination",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 20,
+   "dauerMax": 20,
+   "spielerMin": 10,
+   "spielerMax": 16,
+   "dauerText": "20 Min.",
+   "spielerText": "10–16 Spieler + 2 TW",
+   "feld": "Halbfeld",
+   "material": "1 Großtor, ausreichend Bälle, Hütchen",
+   "ablauf": "Spieler A spielt Diagonallauf auf Flügelspieler B. B dribbelt zur Grundlinie und schlägt eine scharfe Flanke. Im Zentrum laufen 2 Stürmer (C & D) überkreuzt ein: C geht auf den ersten Pfosten, D sichert den Rückraum.",
+   "coaching": [
+    "Timing des Einlaufens (nicht zu früh im Strafraum)",
+    "Flanke flach bis halbhoch zwischen Torwart und Abwehr",
+    "Kopfball- oder Direktabnahme-Technik"
+   ],
+   "varianten": [
+    "Ein IV wird im Strafraum platziert, um die Flanke zu klären",
+    "Flügelwechsel nach jedem dritten Angriff"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-18",
+   "titel": "1 gegen 1 auf den TW mit Verfolgungsdruck",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "15 Min.",
+   "spielerText": "8–12 Spieler + 1 TW",
+   "feld": "30×20 m",
+   "material": "1 Großtor, Bälle",
+   "ablauf": "Stürmer A startet an der 30m-Linie mit Ball. 3 Meter versetzt startet Abwehrspieler B auf Signal des Trainers. A muss versuchen, im Höchsttempo aufs Tor zuzulaufen und abzuschließen, bevor B ihn einholt.",
+   "coaching": [
+    "Zielstrebigkeit & hohes Dribbeltempo",
+    "Körper clever zwischen Ball und Abwehrspieler stellen",
+    "Frühzeitige Entscheidung für Finte oder Schuss"
+   ],
+   "varianten": [
+    "Startabstand des Verteidigers vergrößern/verkleinern",
+    "Zusatzregel: Abschluss muss vor der 16m-Linie erfolgen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-19",
+   "titel": "Doppelkreis-Torschuss-Duell",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 16,
+   "dauerText": "15 Min.",
+   "spielerText": "10–16 Spieler + 2 TW",
+   "feld": "Halbfeld auf 2 Tore",
+   "material": "2 Großtore, viele Bälle",
+   "ablauf": "Zwei Teams stehen an zwei Tore-Stationen parallel. Welches Team erzielt zuerst 15 reguläre Tore? Nach jedem Torschuss läuft der Schütze hinter das eigene Tor und holt den Ball für den Nächsten.",
+   "coaching": [
+    "Torschuss unter Belastung & Zeitdruck",
+    "Konzentration trotz hoher Herzfrequenz",
+    "Schnelle Ballbereitstellung"
+   ],
+   "varianten": [
+    "Nur Tore mit dem schwachen Fuß zählen doppelt",
+    "Torschuss muss per Direktabnahme erfolgen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-20",
+   "titel": "Flügel-Hinterlaufen mit Box-Besetzung",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 20,
+   "dauerMax": 20,
+   "spielerMin": 10,
+   "spielerMax": 16,
+   "dauerText": "20 Min.",
+   "spielerText": "10–16 Spieler + TW",
+   "feld": "Halbfeld",
+   "material": "1 Großtor mit TW, Hütchen, Bälle",
+   "ablauf": "Zuspiel aus dem Zentrum auf den Flügelspieler (7/11). Außenverteidiger (2/3) hinterläuft im Höchsttempo. Flügelspieler steckt den Ball in den Lauf des Außenverteidigers. Scharfe flache Eingabe auf 2 einlaufende Stürmer und 1 nachrückenden 8er.",
+   "coaching": [
+    "Timing des Hinterlaufens",
+    "Scharfe flache Eingabe mit Zug zum Tor",
+    "Staffelung im Strafraum (erster Pfosten, Rückraum, zweiter Pfosten)"
+   ],
+   "varianten": [
+    "1 IV im Strafraum ergänzen zur Klärung",
+    "Außenverteidiger muss per Flugball flanken"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-21",
+   "titel": "3v2 auf 2 Großtore mit Umschalt-Sprint",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 20,
+   "dauerMax": 20,
+   "spielerMin": 10,
+   "spielerMax": 14,
+   "dauerText": "20 Min.",
+   "spielerText": "10–14 Spieler + 2 TW",
+   "feld": "Halbfeld",
+   "material": "2 Großtore mit TW, Bälle an den Seiten",
+   "ablauf": "Team Rot greift im 3 gegen 2 auf Tor A an. Endet die Aktion (Tor, Aus, Parade), kontert Blau im 3 gegen 2 auf Tor B. Der gescheiterte rote Angreifer muss zuerst seine eigene Grundlinie berühren, bevor er in die Abwehr rücken darf.",
+   "coaching": [
+    "Explosives Umschalten von Angriff auf Verteidigung",
+    "Überzahl im Angriff schnell und breit ausspielen",
+    "Verteidigung muss Zentrum schließen und Zeit gewinnen"
+   ],
+   "varianten": [
+    "Zeitlimit: Konter muss innerhalb von 8 Sekunden abgeschlossen sein",
+    "3v3 Grundkonstellation"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-22",
+   "titel": "4v4 auf 4 Minitore mit Überzahl-Joker",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 20,
+   "dauerMax": 20,
+   "spielerMin": 9,
+   "spielerMax": 9,
+   "dauerText": "20 Min.",
+   "spielerText": "9 Spieler",
+   "feld": "35×25 m",
+   "material": "4 Minitore, 1 Leibchen für Joker",
+   "ablauf": "Freies 4 gegen 4 auf 4 Minitore. 1 neutraler Joker spielt immer mit der ballbesitzenden Mannschaft (5 gegen 4 Überzahl). Tore zählen erst ab der gegnerischen Spielfeldhälfte.",
+   "coaching": [
+    "Ausnutzen von Dreiecksbildung und Überzahl",
+    "Schnelle Verlagerung auf das freie Minitor",
+    "Gegenpressing bei Ballverlust"
+   ],
+   "varianten": [
+    "Joker darf maximal 2 Ballkontakte nutzen",
+    "Pflicht: Jeder Spieler im Team muss den Ball berührt haben"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-23",
+   "titel": "Zonen-Endlinienspiel (3v3 + 3)",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 18,
+   "dauerMax": 18,
+   "spielerMin": 9,
+   "spielerMax": 9,
+   "dauerText": "18 Min.",
+   "spielerText": "9 Spieler",
+   "feld": "30×20 m",
+   "material": "Hütchen zur Zonenmarkierung",
+   "ablauf": "Feld ist in 3 Zonen unterteilt. Im Zentrum wird 3 gegen 3 gespielt. An den Endlinien stehen jeweils 2 neutrale Wandspieler. Ziel ist es, den Ball von einer Endlinie kontrolliert durch das Zentrum zur anderen Endlinie zu passen.",
+   "coaching": [
+    "Vertikalpass & Steil-Klatsch-Kombinationen",
+    "Freilaufverhalten zwischen den Gegnerzeilen",
+    "Raumaufteilung der Zuspieler"
+   ],
+   "varianten": [
+    "Wandspieler dürfen direkt in die Tiefe bedient werden",
+    "Kontaktniveau im Zentrum auf 2 Kontakte beschränken"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-24",
+   "titel": "4v2-Gegenpressing nach Ballverlust",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 18,
+   "dauerMax": 18,
+   "spielerMin": 6,
+   "spielerMax": 10,
+   "dauerText": "18 Min.",
+   "spielerText": "6–10 Spieler",
+   "feld": "15×15 m",
+   "material": "1 Ball, Leibchen, 2 Minitore außerhalb des Feldes",
+   "ablauf": "4 Angreifer spielen im Feld Ballhalten gegen 2 Verteidiger. Verliert Team 4 den Ball, müssen alle 4 sofort ins Gegenpressing übergehen. Die 2 Eroberer versuchen, innerhalb von 5 Sekunden auf eines der Minitore außerhalb des Feldes zu passen.",
+   "coaching": [
+    "3-Sekunden-Regel nach Ballverlust",
+    "Passwege zu den Außentoren sofort zustellen",
+    "Aggressive Ballorientierung aller 4 Spieler"
+   ],
+   "varianten": [
+    "Bei erfolgreichem Befreiungspass der Verteidiger erhalten diese 2 Punkte",
+    "Verkleinerung des Spielfelds für höheren Druck"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-25",
+   "titel": "Umschalt-Kaskade 2v1 zu 3v2",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 20,
+   "dauerMax": 20,
+   "spielerMin": 10,
+   "spielerMax": 14,
+   "dauerText": "20 Min.",
+   "spielerText": "10–14 Spieler + TW",
+   "feld": "Halbfeld",
+   "material": "1 Großtor mit TW, 2 Minitore",
+   "ablauf": "2 Angreifer kontern im 2v1 auf das Großtor. Sobald die Aktion endet, rücken 2 neue Verteidiger von der Mittellinie ein. Der vorherige einzelne Verteidiger wird zum 3. Angreifer -> Es entsteht sofort ein 3v2 auf die Minitore.",
+   "coaching": [
+    "Blitzschnelle gedankliche Umstellung (Attacker -> Defender)",
+    "Ausnutzen der situativen Überzahl",
+    "Zielgerichtetes Umschalten"
+   ],
+   "varianten": [
+    "Erweiterung bis zur 4v3 Kaskade",
+    "Zeitlimit von 10 Sekunden pro Welle"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-26",
+   "titel": "2v2-Intervall auf 4 Minitore (Hochintensiv)",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "12 Min. (4x 2 Min.)",
+   "spielerText": "8–12 Spieler",
+   "feld": "20×15 m",
+   "material": "4 Minitore, viele Bälle an den Seiten",
+   "ablauf": "2v2 auf engstem Raum mit maximaler Intensität. Geht der Ball ins Aus, wirft der Trainer sofort ohne Verzögerung einen neuen Ball ins Feld. Nach 2 Minuten wechseln die 4 aktiven Spieler komplett aus.",
+   "coaching": [
+    "Maximale Herzfrequenz & Schnelligkeitsausdauer",
+    "Schnelle Abschlüsse unter voller Belastung",
+    "Kein Abschalten bei Ballaus"
+   ],
+   "varianten": [
+    "Tore zählen nur, wenn sie direkt per Ein-Kontakt-Schuss erzielt werden",
+    "1v1 Modus für 60 Sekunden"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-27",
+   "titel": "Sprint-Tic-Tac-Toe (Team-Staffel)",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 12,
+   "dauerText": "12–15 Min.",
+   "spielerText": "6–12 Spieler (2 Teams)",
+   "feld": "15 m Distanz",
+   "material": "9 Hütchen (3x3 Feld), 3 rote & 3 gelbe Leibchen",
+   "ablauf": "Zwei Teams stehen an der Startlinie. Der erste Läufer sprintet mit einem Leibchen zum 3x3-Hütchenfeld, legt es ab und sprintet zurück. Der Nächste startet per Hand-Klatschen. Welches Team zuerst 3 Leibchen in einer Reihe (horizontal, vertikal, diagonal) hat, gewinnt.",
+   "coaching": [
+    "Maximaler Antritt & Reaktionsschnelligkeit",
+    "Übersicht & taktisches Denken trotz hoher Herzfrequenz",
+    "Sauberes Abklatschen in der Wechselzone"
+   ],
+   "varianten": [
+    "Zusatzaufgabe: Bevor das Leibchen abgelegt wird, muss eine Koordinationsleiter absolviert werden",
+    "Mit Ball: Jeder Läufer muss im Dribbling zum Feld sprinten"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-28",
+   "titel": "Farbsignal-Reaktionssprint",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–16 Spieler",
+   "feld": "15–20 m",
+   "material": "4 verschiedenfarbige Hütchen (Rot, Blau, Gelb, Grün)",
+   "ablauf": "Spieler trippeln auf der Stelle. Auf Zuruf des Trainers ('Blau!') sprinten alle Spieler im Höchsttempo um das blaue Hütchen und zurück über die Startlinie. Wer als Erster die Linie überquert, holt 1 Punkt.",
+   "coaching": [
+    "Reaktionsschnelligkeit & explosive erste 3 Schritte",
+    "Niedriger Körperschwerpunkt beim Anhalten/Wenden",
+    "Hohe Frequenz der Beinarbeit"
+   ],
+   "varianten": [
+    "Mit Ball: Spieler dribbelt mit dem Ball um das gerufene Hütchen",
+    "Trainer zeigt Farbkarte statt Rufen (visueller Reiz statt akustisch)"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-29",
+   "titel": "Schatten-Sprint mit Richtungswechsel",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 0,
+   "spielerMax": 0,
+   "dauerText": "10–12 Min.",
+   "spielerText": "Paarweise",
+   "feld": "10×10 m Feld",
+   "material": "4 Eckhütchen pro Feld",
+   "ablauf": "Spieler A ist der 'Jäger', Spieler B der 'Schatten'. B läuft frei im Feld mit beliebigen Finten und Richtungswechseln. A muss versuchen, im exakt gleichen Abstand wie ein Schatten zu folgen. Auf Trainerpfiff sprintet B zur Grundlinie, A versucht ihn vor der Linie abzuschlagen.",
+   "coaching": [
+    "Wendigkeit & Körperschwerpunkt tief halten",
+    "Antrittsvermögen aus der Wende heraus",
+    "Gegner im Auge behalten"
+   ],
+   "varianten": [
+    "Mit Ball: Spieler B dribbelt mit Ball, A verfolgt ohne Ball",
+    "Feld verkleinern auf 8x8m für höhere Intensität"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-30",
+   "titel": "Dribbel-Chaser & Sprintduell",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 14,
+   "dauerText": "15 Min.",
+   "spielerText": "8–14 Spieler",
+   "feld": "25 m Sprintbahn",
+   "material": "1 Ball pro Durchgang, 2 Startmarkierungen",
+   "ablauf": "Spieler A startet mit 3 Meter Vorsprung im Höchsttempo-Dribbling Richtung Tor/Ziellinie. Spieler B startet gleichzeitig ohne Ball als 'Chaser' (Verfolger) und versucht A vor der Linie durch einen sauberen Sprint einzuholen und abzudrängen.",
+   "coaching": [
+    "Dribbeln unter maximalem Verfolgungsdruck",
+    "Erster Kontakt muss lang und dynamisch sein",
+    "Verfolger muss Kurven schneiden"
+   ],
+   "varianten": [
+    "Wenn B A einholt, entsteht sofort ein 1v1",
+    "Startpositionen tauschen (A startet ohne Ball, B mit Ball)"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-31",
+   "titel": "Pendelsprint & Wandpass-Staffel",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "dauerText": "15 Min.",
+   "spielerText": "8–16 Spieler (2–4 Teams)",
+   "feld": "20 m Feld",
+   "material": "1 Ball pro Team, Hütchen-Parkours",
+   "ablauf": "Team-Staffel: Spieler A dribbelt im Slalom durch 4 Hütchen, spielt am Ende einen scharfen Pass auf B an der gegenüberliegenden Seite und sprintet im Höchsttempo dem Ball hinterher. B übernimmt und startet in die Gegenrichtung.",
+   "coaching": [
+    "Saubere Ballführung im Slalom unter Zeitdruck",
+    "Passschärfe nach Belastung",
+    "Nahtloser Übergang in den Sprint"
+   ],
+   "varianten": [
+    "Rückweg muss als Rumpf-Sprint ohne Ball absolviert werden",
+    "Doppelpass am Wendepunkt verpflichtend"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-32",
+   "titel": "Ampel- & Treibjagd-Sprint ('Ochse am Berg')",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 10,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "dauerText": "10 Min.",
+   "spielerText": "6–16 Spieler",
+   "feld": "25 m Bahn",
+   "material": "Hütchen zur Start- und Ziellinienmarkierung",
+   "ablauf": "Trainer steht an der Ziellinie mit dem Rücken zu den Spielern. Wenn der Trainer 'Grün!' ruft, sprinten alle Spieler Richtung Ziellinie. Wenn der Trainer sich umdreht und 'Rot!' ruft, müssen alle sofort wie angewurzelt erstarren. Wer sich bewegt, muss 5m zurück.",
+   "coaching": [
+    "Körperkontrolle bei voller Fahrt",
+    "Abbremsen auf engstem Raum",
+    "Reaktionsschnelligkeit"
+   ],
+   "varianten": [
+    "Mit Ball: Jeder Spieler muss den Ball bei 'Rot!' sofort mit der Sohle stoppen",
+    "Wer als Erster den Trainer abschlägt, wird der neue Rufende"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-33",
+   "titel": "Kurze Ecke mit Rückraum-Ablage",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 14,
+   "dauerText": "15 Min.",
+   "spielerText": "10–14 Spieler + 1 TW",
+   "feld": "Strafraum",
+   "material": "1 Großtor, Bälle, Leibchen",
+   "ablauf": "Eckballschütze A spielt kurz auf B, der aus dem Strafraum entgegenkommt. B doppelt mit A oder legt direkt flach in den Rückraum (16m-Linie) ab. Dort läuft C ein und schließt direkt ab.",
+   "coaching": [
+    "Täuschung der Abwehr durch abgestimmtes Anlaufen",
+    "Präzises Timing bei der Rückraum-Ablage",
+    "Blockstellen im Strafraum"
+   ],
+   "varianten": [
+    "Flanke an den langen Pfosten als zweite Option",
+    "Variante über direkten Schlenzer ins kurze Eck"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-34",
+   "titel": "Einwurf-Attacke in den Lauf",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "12 Min.",
+   "spielerText": "8–12 Spieler",
+   "feld": "Spielfeldrand",
+   "material": "1 Großtor oder Minitor, Bälle",
+   "ablauf": "Einwerfer A täuscht langen Einwurf an. Anspielstation B läuft kurz entgegen, bindet den Abwehrspieler und lässt den Einwurf sofort in die Schnittstelle klatschen. A sprintet nach dem Einwurf durch und übernimmt.",
+   "coaching": [
+    "Regelkonformer, harter Einwurf aus den Armen",
+    "Timing des entgegenkommenden Spielers",
+    "Explosiver Antritt nach dem Einwurf"
+   ],
+   "varianten": [
+    "Verlängerung per Kopf statt Klatschen-Lassen",
+    "Einwurf direkt in den Rückraum auf den 6er"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-35",
+   "titel": "Freistoß-Täuschung 'Fopp-Lauf'",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 12,
+   "dauerText": "15 Min.",
+   "spielerText": "8–12 Spieler + 1 TW",
+   "feld": "20 m vor dem Tor",
+   "material": "1 Großtor, Bälle, Mauer-Dummies",
+   "ablauf": "Freistoß ca. 20 Meter vor dem Tor. Spieler A läuft energisch an und täuscht einen direkten Schuss über die Mauer an, läuft aber über den Ball. Spieler B stoppt ganz kurz ab und steckt den Ball durch die Mauer auf den startenden C.",
+   "coaching": [
+    "Überzeugende Täuschung durch Spieler A",
+    "Perfekt dosierter Steckpass von Spieler B",
+    "Abseitsfalle der Abwehr aushebeln"
+   ],
+   "varianten": [
+    "Direktschuss von Spieler B als echte zweite Option",
+    "Ablage zur Seite auf einen Distanzschützen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-36",
+   "titel": "Elfmeterkönig mit 'Torwart-Retter'",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 0,
+   "spielerMax": 0,
+   "dauerText": "10–15 Min.",
+   "spielerText": "Alle Spieler + TWs",
+   "feld": "Penalty-Punkt",
+   "material": "1 Großtor, 1 Ball",
+   "ablauf": "Klassischer K.o.-Elfmeter. Wer verschießt, scheidet aus. SONDERREGEL: Fängt der Torwart den Ball fest (ohne Prallen), darf der Torwart einen bereits ausgeschiedenen Spieler wieder ins Spiel 'retten'.",
+   "coaching": [
+    "Nervenstärke beim Elfmeter",
+    "Stimmung & Teambuilding im Kader",
+    "Konzentrierte Ausführung"
+   ],
+   "varianten": [
+    "Schuss nur mit dem schwachen Fuß",
+    "Verkürzter Anlauf (maximal 2 Schritte)"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-37",
+   "titel": "Lattenschießen (Crossbar Challenge)",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 10,
+   "dauerMax": 10,
+   "spielerMin": 0,
+   "spielerMax": 0,
+   "dauerText": "10 Min.",
+   "spielerText": "Alle Spieler",
+   "feld": "16-m-Linie",
+   "material": "1 Großtor, ausreichend Bälle",
+   "ablauf": "Alle Spieler schießen nacheinander von der Strafraumgrenze auf die Torlatte. Punkte: Treffer an die Latte = 2 Punkte, Pfosten = 1 Punkt, Tor = 0 Punkte. Wer zuerst 5 Punkte hat, gewinnt.",
+   "coaching": [
+    "Gefühl & Präzision bei der Ballabgabe",
+    "Lockerheit zum Trainingsabschluss",
+    "Fokussierung der Schusstechnik"
+   ],
+   "varianten": [
+    "Distanz auf 20 Meter erhöhen",
+    "Flugball-Zuspiel vor dem Lattenschuss"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-38",
+   "titel": "Fußball-Bowling auf Flachpässe",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 2,
+   "spielerMax": 4,
+   "dauerText": "10–12 Min.",
+   "spielerText": "2–4 Teams",
+   "feld": "15–20 m Distanz",
+   "material": "10 Hütchen/Flaschen als Pins, Bälle",
+   "ablauf": "10 Hütchen werden wie Bowling-Pins aufgebaut. Die Spieler passen nacheinander flach von einer Markierung. Jedes umgeworfene Hütchen zählt 1 Punkt. Jedes Team hat 2 Versuche pro Durchgang.",
+   "coaching": [
+    "Flachpass-Präzision über längere Distanz",
+    "Passschärfe dosieren",
+    "Team-Wettkampf & Fun-Faktor"
+   ],
+   "varianten": [
+    "Erhöhung der Distanz auf 25 Meter",
+    "Einfügen von 'Hindernis-Hütchen', die nicht getroffen werden dürfen"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-39",
+   "titel": "Torwart-Chaos-König",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 10,
+   "dauerMax": 10,
+   "spielerMin": 0,
+   "spielerMax": 0,
+   "dauerText": "10 Min.",
+   "spielerText": "Alle Spieler + 1 TW",
+   "feld": "Strafraum",
+   "material": "1 Großtor, 10 Bälle, Trainer ruft Namen",
+   "ablauf": "Alle Spieler stehen im Halbkreis um den 16er. Der Trainer wirft unvorhersehbar Bälle in den Strafraum und ruft einen Namen. Dieser Spieler muss sofort reagieren und aus dem Lauf direkt abschließen.",
+   "coaching": [
+    "Reaktionsschnelligkeit im Strafraum",
+    "Spontanes Handeln unter Zeitdruck",
+    "Hoher Spaßfaktor"
+   ],
+   "varianten": [
+    "Zwei Spieler gleichzeitig rufen -> sofortiges 1v1",
+    "Volley-Abschluss-Pflicht"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db-40",
+   "titel": "Handball-Kopfball-Spiel",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 10,
+   "dauerMax": 10,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "dauerText": "10 Min.",
+   "spielerText": "8–16 Spieler",
+   "feld": "25×20 m",
+   "material": "1 Ball, 2 Minitore oder Hütchentore",
+   "ablauf": "Der Ball darf nur mit der Hand gepasst und gefangen werden. Laufen mit dem Ball in der Hand ist verboten (maximal 3 Schritte). Tore dürfen AUSSCHLIESSLICH per Kopfball erzielt werden.",
+   "coaching": [
+    "Freilaufverhalten & Raumaufteilung",
+    "Kommunikation im Team",
+    "Einschätzen von Flugbahnen des Balls"
+   ],
+   "varianten": [
+    "Volley-Abschluss mit dem Fuß nach Hand-Zuspiel erlaubt",
+    "Kontaktzeit mit Ball auf 3 Sekunden begrenzen"
+   ],
+   "tags": []
+  },
+  {
+   "titel": "Ballschule im Kreis",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "15×15 m",
+   "material": "2–3 Bälle, 8 Hütchen",
+   "ablauf": "Alle stehen im Kreis, zwei Bälle laufen gleichzeitig. Zugespielt wird flach und immer mit Blickkontakt vorher. Wer zuspielt, ruft den Namen des Mitspielers. Nach dem Pass läuft man dem Ball zwei Schritte nach.",
+   "coaching": [
+    "Vor dem Pass den Kopf heben und den Mitspieler ansehen",
+    "Innenseite, fester Pass, Standbein zeigt zum Ziel",
+    "Nach dem Pass sofort wieder anspielbar werden"
+   ],
+   "varianten": [
+    "Dritter Ball dazu",
+    "Nur mit dem schwächeren Fuß",
+    "Pass mit Ansage, wohin der nächste gehen soll"
+   ],
+   "tags": [
+    "Passen",
+    "Aufwärmen",
+    "E-Jugend"
+   ],
+   "id": "db-041",
+   "dauerText": "8–10 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Zwei Kreise, ein Signal",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 8,
+   "spielerMax": 18,
+   "feld": "20×20 m",
+   "material": "1 Ball pro Spieler, Hütchen in zwei Farben",
+   "ablauf": "Zwei ineinanderliegende Hütchenkreise. Alle dribbeln zwischen den Kreisen. Auf \"Innen!\" dribbeln alle in den inneren Kreis und halten den Ball an, auf \"Außen!\" wieder heraus. Wer zuletzt ankommt, macht drei Jonglierversuche.",
+   "coaching": [
+    "Ball eng am Fuß, wenn es voll wird",
+    "Sofort reagieren, nicht erst schauen, was die anderen machen",
+    "Kopf hoch, um Zusammenstöße zu vermeiden"
+   ],
+   "varianten": [
+    "Signale vertauschen: \"Innen\" heißt nach außen",
+    "Statt Rufen mit Handzeichen arbeiten",
+    "Zwei Signale gleichzeitig: \"Innen — linker Fuß\""
+   ],
+   "tags": [
+    "Kognition",
+    "Dribbling",
+    "Aufwärmen"
+   ],
+   "id": "db-042",
+   "dauerText": "8–10 Min.",
+   "spielerText": "8–18 Spieler"
+  },
+  {
+   "titel": "Nummern-Lauf",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "25×25 m",
+   "material": "4 Hütchen, Leibchen",
+   "ablauf": "Jedes Kind bekommt eine Nummer. Alle bewegen sich frei im Feld. Der Trainer ruft zwei Zahlen — diese beiden Kinder sprinten einmal um das Feld und wieder in die Gruppe zurück. Wer zuerst zurück ist, bekommt einen Punkt.",
+   "coaching": [
+    "Auf das Signal explosiv antreten",
+    "Beim Laufen im Feld ständig in Bewegung bleiben",
+    "Nach dem Sprint sofort wieder ins Spielgeschehen"
+   ],
+   "varianten": [
+    "Mit Ball am Fuß laufen",
+    "Drei Zahlen gleichzeitig",
+    "Rechenaufgaben statt Zahlen (\"Nummer 3 plus 4!\")"
+   ],
+   "tags": [
+    "Sprint",
+    "Kognition",
+    "Fun"
+   ],
+   "id": "db-043",
+   "dauerText": "8–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Schattenlauf zu zweit",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 8,
+   "spielerMax": 20,
+   "feld": "20×20 m",
+   "material": "Leibchen für die Hälfte",
+   "ablauf": "Immer zwei Kinder bilden ein Paar. Eines läuft frei mit Richtungs- und Tempowechseln, das andere folgt im Abstand von zwei Metern und macht alles nach. Nach 45 Sekunden Wechsel. Kurze Pausen dazwischen.",
+   "coaching": [
+    "Der Vordermann soll ehrlich Tempo wechseln, nicht nur schlendern",
+    "Der Hintermann bleibt in Sichtweite und behält die Körperspannung",
+    "Kleine Schritte beim Richtungswechsel, nicht überschreiten"
+   ],
+   "varianten": [
+    "Der Vordermann führt einen Ball",
+    "Der Hintermann muss den Vordermann abschlagen",
+    "Auf Signal Rollentausch, ohne stehenzubleiben"
+   ],
+   "tags": [
+    "Koordination",
+    "Aufwärmen",
+    "Paarweise"
+   ],
+   "id": "db-044",
+   "dauerText": "8–10 Min.",
+   "spielerText": "8–20 Spieler"
+  },
+  {
+   "titel": "Farbtore-Wettlauf",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "25×25 m",
+   "material": "1 Ball pro Kind, 8 Hütchen in vier Farben",
+   "ablauf": "Vier farbige Hütchentore stehen verteilt im Feld. Alle dribbeln frei. Auf Zuruf einer Farbe müssen alle so schnell wie möglich durch ein Tor dieser Farbe dribbeln. Die letzten beiden machen eine Zusatzaufgabe.",
+   "coaching": [
+    "Blick vom Ball lösen, um das nächste Tor zu finden",
+    "Enge Ballführung im Gedränge, schnelle Ballführung im freien Raum",
+    "Nach dem Tor sofort wieder orientieren"
+   ],
+   "varianten": [
+    "Zwei Farben nacheinander ansagen",
+    "Nur mit links durch, nur mit rechts heraus",
+    "Farbe zeigen statt rufen"
+   ],
+   "tags": [
+    "Dribbling",
+    "Kognition",
+    "E-Jugend"
+   ],
+   "id": "db-045",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Reaktionsstart am Hütchen",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "15×10 m",
+   "material": "10 Hütchen, 2 Bälle",
+   "ablauf": "Je zwei Kinder stehen Rücken an Rücken auf einer Mittellinie, je fünf Meter von einem Hütchen entfernt. Auf ein Signal drehen beide um und sprinten zu ihrem Hütchen. Wer zuerst dort ist, hat gewonnen.",
+   "coaching": [
+    "Aus der Ruhe explosiv losdrücken",
+    "Erster Schritt kurz und kraftvoll",
+    "Oberkörper beim Antritt leicht nach vorn"
+   ],
+   "varianten": [
+    "Startpositionen variieren: Sitz, Bauchlage, Hocke",
+    "Der Gewinner darf danach auf ein Tor schießen",
+    "Signal erst nach unterschiedlich langen Pausen geben"
+   ],
+   "tags": [
+    "Sprint",
+    "Reaktion",
+    "Wettbewerb"
+   ],
+   "id": "db-046",
+   "dauerText": "8–10 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Passen und Nachrücken im Dreieck",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 15,
+   "feld": "15×15 m",
+   "material": "3 Hütchen je Gruppe, 1 Ball je Gruppe",
+   "ablauf": "Drei Hütchen bilden ein Dreieck, an jedem steht mindestens ein Kind. Gepasst wird immer im Uhrzeigersinn, nach dem Pass läuft man dem eigenen Ball hinterher zur nächsten Station. Der Ball soll dabei nie zum Stillstand kommen.",
+   "coaching": [
+    "Erster Kontakt schräg nach vorn aus dem Fuß heraus",
+    "Standbein zeigt zum Ziel, Innenseite fest",
+    "Anlaufen, nicht abwarten — der Ball wird ins Laufen gespielt"
+   ],
+   "varianten": [
+    "Richtung nach einer Minute wechseln",
+    "Nur zwei Kontakte erlaubt, später nur einer",
+    "Doppelpass mit der nächsten Station einbauen"
+   ],
+   "tags": [
+    "Passen",
+    "Ballmitnahme",
+    "E-Jugend"
+   ],
+   "id": "db-047",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–15 Spieler"
+  },
+  {
+   "titel": "Rondo 4 gegen 1",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 5,
+   "spielerMax": 15,
+   "feld": "8×8 m",
+   "material": "4 Hütchen je Gruppe, 1 Ball",
+   "ablauf": "Vier Kinder stehen auf den Ecken eines Quadrats, eines ist in der Mitte. Die Außenspieler passen sich den Ball zu und dürfen sich auf ihrer Linie bewegen. Erobert der Mittelspieler den Ball oder geht er ins Aus, wechselt er mit dem Verursacher.",
+   "coaching": [
+    "Vor der Ballannahme schauen, wo der nächste Pass hingeht",
+    "Offene Stellung: mit dem Körper zum Feld, nicht zum Ball",
+    "Pass an den vom Verteidiger abgewandten Fuß"
+   ],
+   "varianten": [
+    "Zwei Kontakte, dann nur noch einer",
+    "Zweiter Verteidiger dazu (4 gegen 2)",
+    "Punkt für einen Pass durch die Mitte"
+   ],
+   "tags": [
+    "Rondo",
+    "Passen",
+    "Positionsspiel"
+   ],
+   "id": "db-048",
+   "dauerText": "10–15 Min.",
+   "spielerText": "5–15 Spieler"
+  },
+  {
+   "titel": "Y-Passfolge mit Rückpass",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "30×20 m",
+   "material": "6 Hütchen, 3 Bälle",
+   "ablauf": "Anspieler A passt zu B, der sich anbietet und zurücklegt. A spielt in den Lauf von C, der aus der Tiefe kommt. C dribbelt an und schließt ab oder passt zur nächsten Station. Danach rückt jeder eine Position weiter.",
+   "coaching": [
+    "Klatschenlassen mit dem hinteren Fuß, nicht mit dem nächstgelegenen",
+    "Der Tiefenläufer startet erst, wenn der Rückpass unterwegs ist",
+    "Passschärfe: lieber zu fest als zu lasch"
+   ],
+   "varianten": [
+    "Auf beiden Seiten gleichzeitig spielen",
+    "Abschluss auf ein Tor mit Torwart",
+    "Nach dem Rückpass Direktpass in die Tiefe"
+   ],
+   "tags": [
+    "Passen",
+    "Kombination",
+    "D-Jugend"
+   ],
+   "id": "db-049",
+   "dauerText": "12–15 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Rondo 5 gegen 2 mit Anspielstationen",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 7,
+   "spielerMax": 16,
+   "feld": "12×12 m",
+   "material": "4 Hütchen, 2 Bälle, 2 Leibchen",
+   "ablauf": "Fünf Spieler halten den Ball gegen zwei Verteidiger. Gelingen zehn Pässe in Folge oder ein Pass durch die Mitte, gibt es einen Punkt. Bei Ballverlust wechselt der Fehlerverursacher nach innen.",
+   "coaching": [
+    "Passwinkel schaffen, bevor der Ball kommt",
+    "Ruhe am Ball: der Druck ist meist geringer als er sich anfühlt",
+    "Die beiden Verteidiger sollen zusammen anlaufen, nicht einzeln"
+   ],
+   "varianten": [
+    "Nur zwei Kontakte",
+    "Feld verkleinern",
+    "Nach Ballgewinn dürfen die Verteidiger in ein Minitor kontern"
+   ],
+   "tags": [
+    "Rondo",
+    "Positionsspiel",
+    "Gegenpressing"
+   ],
+   "id": "db-050",
+   "dauerText": "12–15 Min.",
+   "spielerText": "7–16 Spieler"
+  },
+  {
+   "titel": "Ballmitnahme im Viereck",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "20×20 m",
+   "material": "8 Hütchen, 4 Bälle",
+   "ablauf": "An jeder Seite des Vierecks steht eine Gruppe. Der Ball wird quer über das Feld gespielt, der Empfänger nimmt ihn mit dem ersten Kontakt in die Richtung mit, in die er weiterspielen will, und passt zur nächsten Seite.",
+   "coaching": [
+    "Erster Kontakt entscheidet — er soll den zweiten Kontakt sparen",
+    "Vor der Annahme Schulterblick",
+    "Ball nicht stoppen, sondern mitnehmen"
+   ],
+   "varianten": [
+    "Nach dem Pass die Seite wechseln",
+    "Annahme nur mit der Außenseite",
+    "Zwei Bälle gleichzeitig im Spiel"
+   ],
+   "tags": [
+    "Ballmitnahme",
+    "Passen",
+    "Erster Kontakt"
+   ],
+   "id": "db-051",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Doppelpass durch das Hütchentor",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "25×15 m",
+   "material": "6 Hütchen, 3 Bälle",
+   "ablauf": "Zwei Kinder laufen nebeneinander durch das Feld und spielen Doppelpässe. Zwischendrin stehen Hütchentore, durch die der Pass gespielt werden muss. Am Ende Abschluss oder Rückpass zum Start.",
+   "coaching": [
+    "Der Ablegende dreht sich sofort nach dem Pass auf",
+    "Tempo halten, der Doppelpass soll im Laufen entstehen",
+    "Pass in den Lauf, nicht in die Füße"
+   ],
+   "varianten": [
+    "Wettbewerb: welches Paar schafft mehr Durchgänge in zwei Minuten",
+    "Ein Verteidiger passiv dazu",
+    "Nur mit dem schwächeren Fuß"
+   ],
+   "tags": [
+    "Kombination",
+    "Doppelpass",
+    "Passen"
+   ],
+   "id": "db-052",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Hütchenwald mit Fintenstation",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "20×20 m",
+   "material": "1 Ball pro Kind, 15 Hütchen",
+   "ablauf": "Hütchen stehen unregelmäßig verteilt. Alle dribbeln frei hindurch. An jedem Hütchen wird eine Finte ausgeführt und danach mit Tempo weggedribbelt. Der Trainer nennt alle 60 Sekunden eine neue Finte.",
+   "coaching": [
+    "Vor der Finte langsamer, nach der Finte sofort schneller",
+    "Körpertäuschung mit dem Oberkörper, nicht nur mit dem Fuß",
+    "Nach dem Antritt drei schnelle Kontakte"
+   ],
+   "varianten": [
+    "Zwei Kinder pro Hütchen im Wettbewerb",
+    "Auf Signal Finte in die entgegengesetzte Richtung",
+    "Mit Zeitmessung durch einen Parcours"
+   ],
+   "tags": [
+    "Dribbling",
+    "Finten",
+    "E-Jugend"
+   ],
+   "id": "db-053",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "1 gegen 1 zur Grundlinie",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "15×12 m",
+   "material": "4 Hütchen, Bälle, Leibchen",
+   "ablauf": "Angreifer startet mit Ball von der Mittellinie, Verteidiger kommt ihm entgegen. Der Angreifer versucht, den Ball über die gegenüberliegende Grundlinie zu dribbeln — die ist so breit, dass ausweichen möglich ist. Gelingt es, gibt es einen Punkt, bei Ballgewinn einen für den Verteidiger.",
+   "coaching": [
+    "Angreifer: mit Tempo anlaufen, erst kurz vor dem Gegner verzögern",
+    "Verteidiger: seitliche Stellung, eine Seite zumachen",
+    "Nicht hinlaufen und hinstellen — in Bewegung bleiben"
+   ],
+   "varianten": [
+    "Grundlinie durch zwei Minitore ersetzen",
+    "Der Verteidiger startet mit Rückstand",
+    "Zeitlimit von sechs Sekunden"
+   ],
+   "tags": [
+    "1v1",
+    "Zweikampf",
+    "Dribbling"
+   ],
+   "id": "db-054",
+   "dauerText": "12–15 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "1 gegen 1 aus der Drehung",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "20×15 m",
+   "material": "2 Tore oder 4 Hütchen, Bälle, Leibchen",
+   "ablauf": "Der Angreifer steht mit dem Rücken zum Tor, der Verteidiger im Rücken. Ein Zuspieler passt zu, der Angreifer muss sich lösen, aufdrehen und zum Abschluss kommen. Nach jedem Versuch Rollentausch.",
+   "coaching": [
+    "Vor dem Zuspiel Kontakt zum Gegner suchen und wegdrücken",
+    "Aufdrehen zur offenen Seite, nicht dorthin, wo der Gegner steht",
+    "Erster Kontakt weg vom Verteidiger"
+   ],
+   "varianten": [
+    "Verteidiger darf erst auf Signal eingreifen",
+    "Zwei Zuspieler an unterschiedlichen Positionen",
+    "Abschluss nur nach erfolgreichem Aufdrehen"
+   ],
+   "tags": [
+    "1v1",
+    "Abschirmen",
+    "Torschuss"
+   ],
+   "id": "db-055",
+   "dauerText": "12–15 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Zweikampfkette",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "25×20 m",
+   "material": "2 Minitore, Bälle, Leibchen",
+   "ablauf": "Zwei Reihen stehen sich gegenüber. Immer ein Paar spielt 1 gegen 1 auf zwei Minitore, maximal 30 Sekunden. Danach kommt sofort das nächste Paar. Punkte werden für die jeweilige Reihe gezählt.",
+   "coaching": [
+    "Sofort auf das Tor spielen statt lange abzuwarten",
+    "Nach Ballgewinn direkt umschalten",
+    "Beim Verteidigen den Winkel zum Tor zumachen"
+   ],
+   "varianten": [
+    "Nach 15 Sekunden kommt ein zweiter Angreifer dazu",
+    "Auf ein großes Tor mit Torwart",
+    "Der Verlierer bleibt im Feld und verteidigt erneut"
+   ],
+   "tags": [
+    "1v1",
+    "Umschalten",
+    "Wettbewerb"
+   ],
+   "id": "db-056",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Abschirmen im Kreis",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "15 m Durchmesser",
+   "material": "1 Ball je Paar, Hütchenkreis",
+   "ablauf": "Je zwei Kinder teilen sich einen Ball. Eines führt den Ball im Kreis und schirmt ihn ab, das andere versucht ihn zu erobern. Nach 45 Sekunden Wechsel. Der Ball darf den Kreis nicht verlassen.",
+   "coaching": [
+    "Körper zwischen Ball und Gegner bringen",
+    "Ball mit dem entfernten Fuß führen",
+    "Breiter Stand, tiefer Schwerpunkt, Arm zum Abschätzen des Gegners"
+   ],
+   "varianten": [
+    "Zwei Verteidiger auf einen Ballführenden",
+    "Wer den Ball erobert, führt weiter",
+    "Kreis verkleinern"
+   ],
+   "tags": [
+    "Abschirmen",
+    "Zweikampf",
+    "Ballkontrolle"
+   ],
+   "id": "db-057",
+   "dauerText": "8–10 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Torschuss nach Ballmitnahme",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "30×20 m",
+   "material": "1 Tor, Torwart, viele Bälle, 4 Hütchen",
+   "ablauf": "Zwei Reihen seitlich versetzt. Der Zuspieler passt flach in den Lauf, der Schütze nimmt den Ball mit einem Kontakt in Richtung Tor mit und schließt mit dem zweiten ab. Danach Rollentausch.",
+   "coaching": [
+    "Erster Kontakt weg vom Gegner und Richtung Tor",
+    "Beim Abschluss Standbein neben den Ball, Oberkörper darüber",
+    "Platziert statt hart — die Ecke reicht"
+   ],
+   "varianten": [
+    "Zuspiel aus dem Rückraum statt von der Seite",
+    "Passiver Verteidiger im Rücken",
+    "Wettbewerb: erste Reihe mit zehn Toren gewinnt"
+   ],
+   "tags": [
+    "Torschuss",
+    "Ballmitnahme",
+    "E-Jugend"
+   ],
+   "id": "db-058",
+   "dauerText": "12–15 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Flanke und Einlaufen",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 18,
+   "feld": "halbes Feld",
+   "material": "1 Tor, Torwart, Bälle, Hütchen",
+   "ablauf": "Ein Kind dribbelt über die Außenbahn und flankt flach oder halbhoch in den Strafraum. Zwei Kinder laufen ein: eines zum kurzen Pfosten, eines zum langen. Nach dem Abschluss folgt die nächste Gruppe von der anderen Seite.",
+   "coaching": [
+    "Der kurze Pfosten wird immer besetzt — auch wenn der Ball selten dorthin kommt",
+    "Einlaufen im Bogen, nicht geradeaus",
+    "Flanke flach und fest vor das Tor, nicht hoch und langsam"
+   ],
+   "varianten": [
+    "Dritter Läufer in den Rückraum",
+    "Ein Verteidiger im Strafraum",
+    "Flanke erst nach einem 1 gegen 1 auf der Außenbahn"
+   ],
+   "tags": [
+    "Flanken",
+    "Torschuss",
+    "Flügelspiel"
+   ],
+   "id": "db-059",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–18 Spieler"
+  },
+  {
+   "titel": "Torschuss aus dem Rückraum",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "25×20 m",
+   "material": "1 Tor, Torwart, Bälle",
+   "ablauf": "Ein Kind legt den Ball aus dem Strafraum in den Rückraum ab. Der nachrückende Schütze kommt aus vollem Lauf und schließt direkt ab. Alle anderen warten in einer Reihe.",
+   "coaching": [
+    "Ablage seitlich versetzt, nicht in den Rücken",
+    "Schütze läuft leicht schräg an, um den Ball voll zu treffen",
+    "Ball flach halten — der Kopf bleibt beim Schuss über dem Ball"
+   ],
+   "varianten": [
+    "Zwei Bälle im Wechsel von links und rechts",
+    "Verteidiger stört den Schuss",
+    "Nur Direktabnahme zählt"
+   ],
+   "tags": [
+    "Torschuss",
+    "Distanzschuss",
+    "D-Jugend"
+   ],
+   "id": "db-060",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Torschussstaffel mit Slalom",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "30×20 m",
+   "material": "2 Tore, 2 Torwarte, 10 Hütchen, viele Bälle",
+   "ablauf": "Zwei Mannschaften stehen hintereinander. Jedes Kind dribbelt durch einen kurzen Slalom, schließt ab und läuft zurück. Die Mannschaft mit den meisten Toren nach drei Durchgängen gewinnt.",
+   "coaching": [
+    "Im Slalom eng am Ball, danach Tempo aufnehmen",
+    "Vor dem Schuss den Torwart anschauen",
+    "Nicht überhasten — der Wettbewerb verführt zum Wegtreten"
+   ],
+   "varianten": [
+    "Slalom rückwärts umlaufen",
+    "Nur mit dem schwächeren Fuß abschließen",
+    "Nach dem Abschluss sofort Nachschuss auf ein zweites Tor"
+   ],
+   "tags": [
+    "Torschuss",
+    "Dribbling",
+    "Wettbewerb"
+   ],
+   "id": "db-061",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Zwei Tore, zwei Chancen",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "30×25 m",
+   "material": "2 Tore, 2 Torwarte, Bälle, Leibchen",
+   "ablauf": "Zwei Tore stehen sich gegenüber. Ein Angreifer startet auf ein Tor; verliert er den Ball oder trifft er, dreht das Spiel sofort auf das andere Tor. Jedes Kind hat 40 Sekunden am Stück.",
+   "coaching": [
+    "Nach dem Abschluss sofort umschalten, nicht stehenbleiben",
+    "Kopf hoch: das zweite Tor ist meist schneller offen als gedacht",
+    "Torwarte spielen mit — schnelles Herausspielen zählt"
+   ],
+   "varianten": [
+    "Ein Verteidiger dazu",
+    "Nach jedem Tor Ballwechsel durch den Trainer",
+    "Punkte doppelt zählen, wenn beide Tore innerhalb von 15 Sekunden fallen"
+   ],
+   "tags": [
+    "Torschuss",
+    "Umschalten",
+    "Kondition"
+   ],
+   "id": "db-062",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Torwart-Ausspielen im 1 gegen 1",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "25×15 m",
+   "material": "1 Tor, Torwart, viele Bälle",
+   "ablauf": "Der Angreifer startet aus 20 Metern, der Torwart kommt heraus. Der Angreifer soll den Torwart ausspielen oder früh und platziert abschließen. Jedes Kind hat sechs Versuche.",
+   "coaching": [
+    "Früh entscheiden: schießen oder ausspielen — Zögern verliert immer",
+    "Beim Ausspielen den Ball flach am Torwart vorbeilegen",
+    "Beim Abschluss auf die lange Ecke, wenn der Torwart früh kommt"
+   ],
+   "varianten": [
+    "Der Torwart darf erst nach dem zweiten Kontakt heraus",
+    "Verteidiger verfolgt von hinten",
+    "Nach dem Abschluss nachsetzen für den Abpraller"
+   ],
+   "tags": [
+    "Torschuss",
+    "1v1",
+    "Torwart"
+   ],
+   "id": "db-063",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Doppelpass zum Abschluss",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "30×20 m",
+   "material": "1 Tor, Torwart, Bälle, 4 Hütchen",
+   "ablauf": "Der Angreifer dribbelt an, spielt einen Doppelpass mit einem festen Anspieler und schließt nach der Rückgabe ab. Der Anspieler wechselt nach fünf Wiederholungen.",
+   "coaching": [
+    "Der Pass zum Anspieler muss fest sein, sonst wird die Rückgabe langsam",
+    "Nach dem Pass sofort in die Lücke starten",
+    "Anspieler legt in den Lauf ab, nicht in die Füße"
+   ],
+   "varianten": [
+    "Zwei Anspieler auf beiden Seiten, Wahl beim Angreifer",
+    "Verteidiger im Zentrum",
+    "Direktabnahme nach der Rückgabe"
+   ],
+   "tags": [
+    "Kombination",
+    "Torschuss",
+    "Doppelpass"
+   ],
+   "id": "db-064",
+   "dauerText": "12–15 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "4 gegen 4 auf vier Minitore",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 20,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "30×25 m",
+   "material": "4 Minitore, Bälle, Leibchen",
+   "ablauf": "Jede Mannschaft verteidigt zwei Minitore an ihrer Grundlinie und greift auf zwei an. Weil zwei Ziele offen sind, entstehen ständig Verlagerungen. Ohne Torwart, freies Spiel.",
+   "coaching": [
+    "Nach dem Ballgewinn zuerst nach dem zweiten Tor schauen",
+    "Breit stehen, wenn man den Ball hat — eng, wenn man ihn verteidigt",
+    "Ein Kind sichert immer hinten ab"
+   ],
+   "varianten": [
+    "Tore nur nach Verlagerung zählen doppelt",
+    "Ein Kontakt weniger nach jedem Tor",
+    "Auf drei Tore pro Seite erweitern"
+   ],
+   "tags": [
+    "Spielform",
+    "Verlagerung",
+    "E-Jugend"
+   ],
+   "id": "db-065",
+   "dauerText": "12–20 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "3 gegen 2 Überzahlkonter",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 15,
+   "feld": "30×20 m",
+   "material": "1 Tor, Torwart, Bälle, Leibchen",
+   "ablauf": "Drei Angreifer starten von der Mittellinie gegen zwei Verteidiger. Sie haben zehn Sekunden Zeit für den Abschluss. Bei Ballgewinn kontern die Verteidiger auf zwei Minitore an der Mittellinie.",
+   "coaching": [
+    "Breit auffächern, damit die Überzahl wirkt",
+    "Der Ballführende läuft den Verteidiger an, statt früh abzuspielen",
+    "Schnell abschließen — die Überzahl ist nur kurz da"
+   ],
+   "varianten": [
+    "Zeitlimit auf sieben Sekunden senken",
+    "4 gegen 3 spielen",
+    "Ein Verteidiger startet mit Rückstand"
+   ],
+   "tags": [
+    "Konter",
+    "Überzahl",
+    "Umschalten"
+   ],
+   "id": "db-066",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–15 Spieler"
+  },
+  {
+   "titel": "Gegenpressing nach Ballverlust",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 18,
+   "feld": "30×30 m",
+   "material": "4 Minitore, Bälle, Leibchen in drei Farben",
+   "ablauf": "Zwei Mannschaften spielen Ballhalten, eine dritte wartet außen. Bei Ballverlust hat die Mannschaft fünf Sekunden Zeit, den Ball zurückzuerobern. Gelingt es, gibt es einen Punkt; gelingt es nicht, kommt die wartende Mannschaft ins Feld.",
+   "coaching": [
+    "Sofort nachsetzen, nicht erst zurücklaufen",
+    "Der Nächstliegende geht drauf, die anderen schieben nach und schließen Passwege",
+    "Nach fünf Sekunden bewusst umschalten und Ordnung herstellen"
+   ],
+   "varianten": [
+    "Zeitfenster auf drei Sekunden verkürzen",
+    "Nach erfolgreicher Rückeroberung sofort auf ein Tor abschließen",
+    "Feld verkleinern"
+   ],
+   "tags": [
+    "Gegenpressing",
+    "Umschalten",
+    "D-Jugend"
+   ],
+   "id": "db-067",
+   "dauerText": "12–15 Min.",
+   "spielerText": "10–18 Spieler"
+  },
+  {
+   "titel": "Positionsspiel 4 gegen 4 plus 3",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 20,
+   "spielerMin": 11,
+   "spielerMax": 16,
+   "feld": "30×25 m",
+   "material": "Hütchen, Bälle, Leibchen",
+   "ablauf": "Zwei Mannschaften zu viert im Feld, drei neutrale Spieler halten sich außen auf und spielen immer mit der ballführenden Mannschaft. Zehn Pässe in Folge ergeben einen Punkt.",
+   "coaching": [
+    "Die Neutralen sind die Lösung — sie werden zu selten genutzt",
+    "Nach dem Pass die Position verändern, nicht stehenbleiben",
+    "Beim Verteidigen den Rückpass zulassen, den Vorwärtspass zumachen"
+   ],
+   "varianten": [
+    "Neutrale dürfen nur einen Kontakt spielen",
+    "Auf zwei Minitore erweitern",
+    "Nach einem Punkt sofort Richtungswechsel"
+   ],
+   "tags": [
+    "Positionsspiel",
+    "Ballbesitz",
+    "Überzahl"
+   ],
+   "id": "db-068",
+   "dauerText": "15–20 Min.",
+   "spielerText": "11–16 Spieler"
+  },
+  {
+   "titel": "Umschaltspiel mit drei Mannschaften",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 20,
+   "spielerMin": 12,
+   "spielerMax": 18,
+   "feld": "35×25 m",
+   "material": "2 Tore, 2 Torwarte, Leibchen in drei Farben",
+   "ablauf": "Zwei Mannschaften spielen gegeneinander, die dritte wartet an einer Grundlinie. Fällt ein Tor oder geht der Ball ins Aus, kommt die wartende Mannschaft sofort mit einem neuen Ball ins Spiel, die kassierende geht heraus.",
+   "coaching": [
+    "Immer damit rechnen, dass gleich ein frischer Gegner kommt",
+    "Nach dem Toreschießen sofort wieder Ordnung herstellen",
+    "Tempo hoch halten — die Pausen ergeben sich von selbst"
+   ],
+   "varianten": [
+    "Ohne Torwarte auf Minitore",
+    "Die wartende Mannschaft startet mit einem Angreifer im Feld",
+    "Zwei Bälle gleichzeitig"
+   ],
+   "tags": [
+    "Umschalten",
+    "Spielform",
+    "Kondition"
+   ],
+   "id": "db-069",
+   "dauerText": "15–20 Min.",
+   "spielerText": "12–18 Spieler"
+  },
+  {
+   "titel": "Ballhalten mit Zielspieler",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 16,
+   "feld": "25×25 m",
+   "material": "Hütchen, Bälle, Leibchen",
+   "ablauf": "Sechs gegen sechs im Feld, an jeder Grundlinie steht ein Zielspieler der jeweiligen Mannschaft. Ein Punkt fällt, wenn der Zielspieler angespielt wird und den Ball zurücklegt.",
+   "coaching": [
+    "Den Zielspieler erst anspielen, wenn er frei steht",
+    "Nach dem Anspiel nachrücken, um den Rückpass zu verarbeiten",
+    "Verteidiger: den Passweg zum Zielspieler zustellen"
+   ],
+   "varianten": [
+    "Zielspieler dürfen nur direkt zurücklegen",
+    "Nach dem Rückpass darf die Mannschaft aufs Minitor abschließen",
+    "Zwei Zielspieler pro Seite"
+   ],
+   "tags": [
+    "Ballbesitz",
+    "Zielspieler",
+    "Spielform"
+   ],
+   "id": "db-070",
+   "dauerText": "12–15 Min.",
+   "spielerText": "10–16 Spieler"
+  },
+  {
+   "titel": "Tic-Tac-Toe-Staffel",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "20×15 m",
+   "material": "9 Reifen oder Hütchenfelder, 6 Leibchen",
+   "ablauf": "Neun Felder liegen im Quadrat. Zwei Mannschaften stehen an der Startlinie. Nacheinander sprintet je ein Kind los und legt ein Leibchen in ein Feld. Wer zuerst drei in einer Reihe hat, gewinnt. Sind alle Leibchen gelegt, dürfen sie versetzt werden.",
+   "coaching": [
+    "Vor dem Start entscheiden, wohin man legt — nicht erst unterwegs",
+    "Voller Sprint hin und zurück",
+    "Als Mannschaft laut absprechen"
+   ],
+   "varianten": [
+    "Mit Ball am Fuß zum Feld dribbeln",
+    "Zusätzliche Hindernisse auf dem Weg",
+    "Vier in einer Reihe auf einem 4×4-Feld"
+   ],
+   "tags": [
+    "Sprint",
+    "Kognition",
+    "Fun"
+   ],
+   "id": "db-071",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Pendelstaffel mit Ballkontrolle",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 18,
+   "feld": "25×15 m",
+   "material": "8 Hütchen, 4 Bälle",
+   "ablauf": "Zwei Gruppen stehen sich in 20 Metern Abstand gegenüber. Ein Kind dribbelt hinüber, übergibt den Ball und stellt sich hinten an. Wer zuerst komplett durchgewechselt hat, gewinnt.",
+   "coaching": [
+    "Übergabe sauber ausführen, nicht wegschießen",
+    "Beim Dribbeln Tempo halten, aber Kontrolle behalten",
+    "Nach der Übergabe schnell aus dem Weg gehen"
+   ],
+   "varianten": [
+    "Rückwärts dribbeln auf dem Rückweg",
+    "Zwei Bälle gleichzeitig pro Gruppe",
+    "Slalom auf halber Strecke"
+   ],
+   "tags": [
+    "Sprint",
+    "Dribbling",
+    "Wettbewerb"
+   ],
+   "id": "db-072",
+   "dauerText": "8–12 Min.",
+   "spielerText": "8–18 Spieler"
+  },
+  {
+   "titel": "Fangen mit Befreiung",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 10,
+   "spielerMax": 20,
+   "feld": "25×25 m",
+   "material": "4 Hütchen, 3 Leibchen",
+   "ablauf": "Drei Fänger jagen die übrigen Kinder. Wer abgeschlagen wird, stellt sich breitbeinig hin und kann von einem Mitspieler befreit werden, der zwischen den Beinen hindurchkrabbelt. Nach zwei Minuten wechseln die Fänger.",
+   "coaching": [
+    "Beim Ausweichen kurze Schritte und schnelle Richtungswechsel",
+    "Fänger sollen zusammenarbeiten und in die Ecke treiben",
+    "Beim Befreien den Kopf schützen und zügig durch"
+   ],
+   "varianten": [
+    "Fänger mit Ball am Fuß",
+    "Befreien nur durch Abklatschen von zwei Kindern gleichzeitig",
+    "Feld nach jeder Runde verkleinern"
+   ],
+   "tags": [
+    "Fangspiel",
+    "Aufwärmen",
+    "E-Jugend"
+   ],
+   "id": "db-073",
+   "dauerText": "8–12 Min.",
+   "spielerText": "10–20 Spieler"
+  },
+  {
+   "titel": "Antritt aus der Bewegung",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "30×10 m",
+   "material": "12 Hütchen",
+   "ablauf": "Alle traben in einer lockeren Reihe auf einer Bahn. Auf ein Signal sprintet die Gruppe zehn Meter mit voller Geschwindigkeit und geht dann wieder ins Traben über. Sechs bis acht Wiederholungen mit ausreichend Pause.",
+   "coaching": [
+    "Der Antritt ist die Übung, nicht die Strecke — voll oder gar nicht",
+    "Arme aktiv mitnehmen",
+    "Zwischen den Sprints wirklich locker traben"
+   ],
+   "varianten": [
+    "Signal aus unterschiedlichen Richtungen",
+    "Nach dem Sprint einen Ball annehmen und passen",
+    "Zu zweit als Wettlauf"
+   ],
+   "tags": [
+    "Sprint",
+    "Schnelligkeit",
+    "Kondition"
+   ],
+   "id": "db-074",
+   "dauerText": "8–10 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Farbsprint zu Hütchen",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "20×20 m",
+   "material": "Hütchen in vier Farben",
+   "ablauf": "Alle stehen in der Feldmitte. Der Trainer ruft eine Farbe, alle sprinten zum entsprechenden Hütchen und wieder zurück. Wer zuletzt zurück ist, scheidet aus einer Wertungsrunde aus.",
+   "coaching": [
+    "Erster Schritt in die richtige Richtung — nicht erst suchen",
+    "Am Hütchen abbremsen und sauber wenden",
+    "Rückweg genauso schnell wie der Hinweg"
+   ],
+   "varianten": [
+    "Zwei Farben nacheinander",
+    "Mit Ball am Fuß",
+    "Farbe zeigen statt rufen"
+   ],
+   "tags": [
+    "Sprint",
+    "Reaktion",
+    "Kognition"
+   ],
+   "id": "db-075",
+   "dauerText": "8–10 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Drei-Ecken-Lauf mit Entscheidung",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "20×20 m",
+   "material": "6 Hütchen in drei Farben, 2 Bälle",
+   "ablauf": "Drei Ecken sind farblich markiert. Zwei Kinder starten gleichzeitig aus der Mitte. Der Trainer zeigt eine Farbe erst, wenn beide schon losgelaufen sind — sie müssen im Lauf umschalten und die richtige Ecke ansteuern.",
+   "coaching": [
+    "Beim Antritt noch offen bleiben, nicht früh festlegen",
+    "Blick zum Trainer halten",
+    "Sauber abbremsen statt schlittern"
+   ],
+   "varianten": [
+    "Ecke berühren und zurück zur Mitte",
+    "Mit Ball am Fuß",
+    "Der Schnellere darf danach auf ein Tor schießen"
+   ],
+   "tags": [
+    "Sprint",
+    "Reaktion",
+    "Richtungswechsel"
+   ],
+   "id": "db-076",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Einwurf mit drei Anspielmöglichkeiten",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "20×20 m",
+   "material": "Hütchen, Bälle",
+   "ablauf": "Ein Kind wirft ein, drei Mitspieler bieten sich an: kurz zum Fuß, hinterlaufend in die Tiefe, rückwärts zur Absicherung. Der Einwerfer entscheidet, danach wird der Ball ins Feld weitergespielt. Nach jedem Durchgang Rollentausch.",
+   "coaching": [
+    "Der Einwerfer schaut zuerst nach vorn, nicht nach hinten",
+    "Anbieten heißt Bewegung — stehende Mitspieler werden nicht angespielt",
+    "Nach dem Einwurf sofort ins Feld nachrücken"
+   ],
+   "varianten": [
+    "Mit einem Verteidiger je Anspielstation",
+    "Nur der hinterlaufende Spieler darf angespielt werden",
+    "Direkt nach dem Einwurf auf ein Minitor abschließen"
+   ],
+   "tags": [
+    "Standard",
+    "Einwurf",
+    "E-Jugend"
+   ],
+   "id": "db-077",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Kurze Ecke einstudieren",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "Strafraum",
+   "material": "1 Tor, Torwart, Bälle, Hütchen",
+   "ablauf": "Die Ecke wird kurz zu einem Mitspieler gespielt, der sich zum Eckball hin löst. Er legt zurück oder dribbelt an, danach folgt die Hereingabe. Drei Einläufer besetzen kurzen Pfosten, Elfmeterpunkt und Rückraum.",
+   "coaching": [
+    "Der kurze Anspielpartner muss sich wirklich lösen, nicht nur dastehen",
+    "Die Hereingabe kommt flach und fest, nicht hoch und langsam",
+    "Rückraum immer besetzen — dort fallen die meisten Tore nach Standards"
+   ],
+   "varianten": [
+    "Zwei Verteidiger im Strafraum",
+    "Variante mit Rückpass zum Ecke-Ausführenden",
+    "Nach Klärung sofortiger Gegenangriff"
+   ],
+   "tags": [
+    "Standard",
+    "Ecke",
+    "D-Jugend"
+   ],
+   "id": "db-078",
+   "dauerText": "10–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Freistoß mit Mauer",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "halber Strafraum",
+   "material": "1 Tor, Torwart, Mauer-Dummies oder Kinder, Bälle",
+   "ablauf": "Freistöße aus 16 bis 20 Metern gegen eine Mauer aus drei Kindern. Jedes Kind hat drei Versuche: einmal über die Mauer, einmal um die Mauer herum, einmal als abgesprochene Variante mit Ablage.",
+   "coaching": [
+    "Anlauf schräg, Standbein neben den Ball",
+    "Beim Schuss über die Mauer den Fuß unter den Ball bekommen",
+    "Bei der Ablage-Variante laut und klar absprechen"
+   ],
+   "varianten": [
+    "Mauer darf springen",
+    "Torwart deckt bewusst eine Ecke ab",
+    "Wettbewerb mit Punkten je nach Variante"
+   ],
+   "tags": [
+    "Standard",
+    "Freistoß",
+    "Torschuss"
+   ],
+   "id": "db-079",
+   "dauerText": "10–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Elfmeterkönig",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 20,
+   "feld": "Strafraum",
+   "material": "1 Tor, Torwart, viele Bälle",
+   "ablauf": "Alle Kinder schießen nacheinander einen Strafstoß. Wer trifft, bleibt drin, wer verschießt, scheidet aus. Es wird gespielt, bis ein Kind übrig ist. Der Torwart wird alle zwei Runden gewechselt.",
+   "coaching": [
+    "Vor dem Anlauf die Ecke festlegen und dabei bleiben",
+    "Standbein fest neben den Ball",
+    "Auch unter Druck den gewohnten Anlauf beibehalten"
+   ],
+   "varianten": [
+    "Nach jeder Runde einen Meter weiter zurück",
+    "Nur mit dem schwächeren Fuß",
+    "Der Torwart darf raten und vorher eine Ecke ansagen"
+   ],
+   "tags": [
+    "Fun",
+    "Torschuss",
+    "Wettbewerb"
+   ],
+   "id": "db-080",
+   "dauerText": "8–12 Min.",
+   "spielerText": "6–20 Spieler"
+  },
+  {
+   "titel": "Lattenschießen",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 4,
+   "spielerMax": 16,
+   "feld": "25×15 m",
+   "material": "1 Tor, viele Bälle",
+   "ablauf": "Aus 16 Metern versucht jedes Kind, die Latte zu treffen. Ein Treffer gibt drei Punkte, ein Pfostentreffer einen. In Zweiergruppen wird gegeneinander gespielt.",
+   "coaching": [
+    "Nicht Vollgas — Genauigkeit schlägt Härte",
+    "Ball etwas unterhalb der Mitte treffen",
+    "Ruhiger Anlauf, fester Stand"
+   ],
+   "varianten": [
+    "Aus unterschiedlichen Winkeln",
+    "Nach Ballmitnahme statt aus dem Stand",
+    "Direktabnahme nach Zuspiel"
+   ],
+   "tags": [
+    "Fun",
+    "Torschuss",
+    "Wettbewerb"
+   ],
+   "id": "db-081",
+   "dauerText": "8–10 Min.",
+   "spielerText": "4–16 Spieler"
+  },
+  {
+   "titel": "Fußball-Bowling",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 6,
+   "spielerMax": 18,
+   "feld": "20×10 m",
+   "material": "10 Hütchen, Bälle",
+   "ablauf": "Zehn Hütchen stehen wie Bowling-Kegel aufgestellt. Aus zwölf Metern versucht jedes Kind, mit einem flachen Schuss möglichst viele umzuwerfen. Zwei Versuche pro Durchgang.",
+   "coaching": [
+    "Innenseitstoß für Genauigkeit statt Spannstoß für Härte",
+    "Flach halten — hohe Bälle treffen nichts",
+    "Zielpunkt vorher festlegen"
+   ],
+   "varianten": [
+    "Mit dem schwächeren Fuß",
+    "Nach Ballmitnahme",
+    "Als Mannschaftswettbewerb mit Gesamtpunkten"
+   ],
+   "tags": [
+    "Fun",
+    "Schusstechnik",
+    "E-Jugend"
+   ],
+   "id": "db-082",
+   "dauerText": "8–10 Min.",
+   "spielerText": "6–18 Spieler"
+  },
+  {
+   "titel": "Jonglier-Wettbewerb",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 6,
+   "dauerMax": 10,
+   "spielerMin": 4,
+   "spielerMax": 20,
+   "feld": "beliebig",
+   "material": "1 Ball pro Kind",
+   "ablauf": "Jedes Kind versucht, den Ball möglichst oft hochzuhalten. Gezählt wird die beste von drei Serien. Anschließend paarweise: möglichst viele Kontakte zu zweit ohne Bodenberührung.",
+   "coaching": [
+    "Kleine Berührungen mit dem Fußrücken, Ball auf Hüfthöhe halten",
+    "Knie leicht gebeugt, Blick auf den Ball",
+    "Beim Paar-Jonglieren ruhig zuspielen, nicht hart"
+   ],
+   "varianten": [
+    "Nur schwacher Fuß",
+    "Abwechselnd Fuß und Oberschenkel",
+    "Als Mannschaftswertung mit Gesamtsumme"
+   ],
+   "tags": [
+    "Ballmastery",
+    "Technik",
+    "Fun"
+   ],
+   "id": "db-083",
+   "dauerText": "6–10 Min.",
+   "spielerText": "4–20 Spieler"
+  },
+  {
+   "titel": "Torwandschießen mit Zonen",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "25×15 m",
+   "material": "1 Tor, Bälle, 4 Hütchen oder Bänder zur Zonenmarkierung",
+   "ablauf": "Das Tor wird in Zonen eingeteilt: die unteren Ecken zählen drei Punkte, die oberen fünf, die Mitte einen. Jedes Kind hat fünf Schüsse, gespielt wird in Zweiermannschaften.",
+   "coaching": [
+    "Ecke vorher ansagen — Zufallstreffer zählen nur halb",
+    "Für die untere Ecke flach und platziert schießen",
+    "Anlauf kurz halten, damit die Technik stimmt"
+   ],
+   "varianten": [
+    "Nach Ballmitnahme statt aus dem Stand",
+    "Mit Torwart, dann zählen nur echte Tore",
+    "Zeitdruck: fünf Schüsse in 30 Sekunden"
+   ],
+   "tags": [
+    "Torschuss",
+    "Präzision",
+    "Wettbewerb"
+   ],
+   "id": "db-084",
+   "dauerText": "8–12 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Handball-Fußball",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 18,
+   "feld": "30×25 m",
+   "material": "2 Tore, Bälle, Leibchen",
+   "ablauf": "Gespielt wird zunächst mit der Hand: Zupassen nur per Wurf, Laufen mit dem Ball ist verboten. Der Abschluss muss aber mit dem Fuß erfolgen — der Ball wird sich selbst vorgelegt oder direkt aus der Luft genommen.",
+   "coaching": [
+    "Freilaufen ist einfacher als beim Fußball — genau das soll bewusst werden",
+    "Vor dem Wurf den Abschließenden ansehen",
+    "Beim Abschluss ruhig bleiben und den Ball sauber treffen"
+   ],
+   "varianten": [
+    "Nach der Hälfte auf reinen Fußball umstellen und vergleichen",
+    "Nur Direktabnahmen zählen",
+    "Kopfballtore zählen doppelt"
+   ],
+   "tags": [
+    "Fun",
+    "Freilaufen",
+    "Spielform"
+   ],
+   "id": "db-085",
+   "dauerText": "10–15 Min.",
+   "spielerText": "8–18 Spieler"
+  },
+  {
+   "titel": "Torwart-Grundtechnik: Fangen und Abrollen",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 2,
+   "spielerMax": 6,
+   "feld": "15×10 m",
+   "material": "1 Tor, viele Bälle, Hütchen",
+   "ablauf": "Der Trainer wirft und schießt in wechselnder Höhe auf den Torwart: flach, halbhoch, hoch. Jeder Ball wird sicher gefangen und anschließend zu einem seitlich stehenden Mitspieler abgerollt oder geworfen.",
+   "coaching": [
+    "Hände bilden ein W hinter dem Ball",
+    "Zum Ball hinbewegen statt abwarten",
+    "Nach dem Fangen sofort Blick zum Mitspieler heben"
+   ],
+   "varianten": [
+    "Aus der Bewegung nach seitlichem Antritt",
+    "Zwei Bälle in Folge ohne Pause",
+    "Abwurf auf ein Ziel in 20 Metern"
+   ],
+   "tags": [
+    "Torwart",
+    "Technik",
+    "E-Jugend"
+   ],
+   "id": "db-086",
+   "dauerText": "10–15 Min.",
+   "spielerText": "2–6 Spieler"
+  },
+  {
+   "titel": "Torwart im 1 gegen 1 und Rauslaufen",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 3,
+   "spielerMax": 8,
+   "feld": "25×15 m",
+   "material": "1 Tor, Bälle, Hütchen",
+   "ablauf": "Ein Angreifer kommt allein auf das Tor zu. Der Torwart übt, den Winkel zu verkürzen, klein zu bleiben und erst im letzten Moment abzutauchen. Sechs bis acht Wiederholungen mit Pausen, danach Wechsel.",
+   "coaching": [
+    "Auf den Ball zugehen, solange er nicht am Fuß klebt",
+    "Groß machen, aber nicht zu früh hinlegen",
+    "Bei der Abwehr die Hände tief — die meisten Bälle kommen flach"
+   ],
+   "varianten": [
+    "Angreifer kommt von der Seite statt frontal",
+    "Zwei Angreifer, Abspiel möglich",
+    "Nach der Abwehr sofort zweiter Ball"
+   ],
+   "tags": [
+    "Torwart",
+    "1v1",
+    "Rauslaufen"
+   ],
+   "id": "db-087",
+   "dauerText": "10–15 Min.",
+   "spielerText": "3–8 Spieler"
+  },
+  {
+   "titel": "Torwart als Mitspieler",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "30×25 m",
+   "material": "2 Tore, 2 Torwarte, Bälle, Leibchen",
+   "ablauf": "Normales Spiel vier gegen vier, aber jede Mannschaft hat ihren Torwart als zusätzlichen Anspielpunkt. Der Torwart darf nur zwei Kontakte spielen und den Ball nicht in die Hand nehmen, wenn er zugespielt bekommt.",
+   "coaching": [
+    "Torwart stellt sich seitlich versetzt an, nicht hinter dem Ballführenden",
+    "Rückpass ist eine Lösung, kein Fehler",
+    "Nach dem Rückpass muss sich das Feld sofort öffnen"
+   ],
+   "varianten": [
+    "Torwart darf nur einen Kontakt spielen",
+    "Punkt für einen erfolgreichen Spielaufbau über den Torwart",
+    "Gegner darf den Torwart anlaufen"
+   ],
+   "tags": [
+    "Torwart",
+    "Spielaufbau",
+    "Spielform"
+   ],
+   "id": "db-088",
+   "dauerText": "10–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Merkspiel mit Passfolge",
+   "kategorie": "Erwärmung & Kognition",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "20×20 m",
+   "material": "2 Bälle, Hütchen",
+   "ablauf": "Die Gruppe legt eine feste Passreihenfolge fest — jedes Kind hat immer denselben Empfänger. Die Reihenfolge wird eingespielt, dann kommt ein zweiter Ball dazu, dann bewegen sich alle frei im Raum und behalten die Reihenfolge trotzdem bei.",
+   "coaching": [
+    "Vor der Annahme wissen, wohin der nächste Pass geht",
+    "Laut kommunizieren, wenn der Empfänger nicht auffindbar ist",
+    "Beim Bewegen anspielbar bleiben, nicht im Rücken anderer verstecken"
+   ],
+   "varianten": [
+    "Rückwärtsfolge zusätzlich",
+    "Dritter Ball",
+    "Zwei Reihenfolgen gleichzeitig, farblich getrennt"
+   ],
+   "tags": [
+    "Kognition",
+    "Passen",
+    "Kommunikation"
+   ],
+   "id": "db-089",
+   "dauerText": "8–12 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Überzahl-Rondo mit Ausbruch",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "20×20 m",
+   "material": "4 Hütchen, 2 Minitore, Bälle, Leibchen",
+   "ablauf": "Sechs gegen drei im Quadrat. Nach acht Pässen dürfen die Ballbesitzer aus dem Feld ausbrechen und auf ein Minitor abschließen. Bei Ballgewinn wechseln die Verteidiger.",
+   "coaching": [
+    "Erst Ruhe, dann Tempo — der Ausbruch kommt nach der Ordnung",
+    "Der Ausbruchspass geht in den Lauf, nicht in die Füße",
+    "Verteidiger sollen Passwege zustellen statt hinterherzulaufen"
+   ],
+   "varianten": [
+    "Ausbruch schon nach fünf Pässen",
+    "Zwei Minitore auf gegenüberliegenden Seiten",
+    "Verteidiger dürfen bei Ballgewinn ebenfalls kontern"
+   ],
+   "tags": [
+    "Rondo",
+    "Umschalten",
+    "Ballbesitz"
+   ],
+   "id": "db-090",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Dribbelkönig im Kreis",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "15 m Durchmesser",
+   "material": "1 Ball pro Kind, Hütchenkreis",
+   "ablauf": "Alle dribbeln im Kreis. Jedes Kind versucht, die Bälle der anderen aus dem Kreis zu schießen und dabei den eigenen zu behalten. Wer seinen Ball verliert, macht draußen fünf Jonglierversuche und darf wieder hinein.",
+   "coaching": [
+    "Kopf hoch: gleichzeitig den eigenen Ball schützen und Gelegenheiten sehen",
+    "Ball mit dem entfernten Fuß führen",
+    "Nicht in die Mitte laufen, wo alle sind"
+   ],
+   "varianten": [
+    "Kreis nach jeder Minute verkleinern",
+    "Zu zweit als Team spielen",
+    "Wer verliert, bleibt draußen — bis einer übrig ist"
+   ],
+   "tags": [
+    "Dribbling",
+    "Ballschutz",
+    "Fun"
+   ],
+   "id": "db-091",
+   "dauerText": "8–12 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Passen unter Zeitdruck",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "20×20 m",
+   "material": "8 Hütchen, 4 Bälle, Stoppuhr",
+   "ablauf": "Vier Stationen an den Ecken. Die Gruppe muss in zwei Minuten möglichst viele saubere Pässe über das Feld spielen — jeder Pass zählt nur, wenn er zwischen zwei Hütchen hindurchgeht und angenommen wird.",
+   "coaching": [
+    "Genauigkeit vor Tempo — ungenaue Pässe kosten mehr Zeit als sie sparen",
+    "Der Empfänger stellt sich so, dass er den Pass ins Ziel weiterleiten kann",
+    "Kommunikation: kurz und laut"
+   ],
+   "varianten": [
+    "Torabstand verkleinern",
+    "Nur Direktpässe zählen",
+    "Zwei Mannschaften im Wettbewerb auf getrennten Feldern"
+   ],
+   "tags": [
+    "Passen",
+    "Präzision",
+    "Wettbewerb"
+   ],
+   "id": "db-092",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Vier-Tore-Dribbelspiel",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "25×25 m",
+   "material": "8 Hütchen für vier Tore, Bälle, Leibchen",
+   "ablauf": "Zwei Mannschaften, vier Hütchentore verteilt im Feld. Ein Punkt fällt, wenn ein Kind mit dem Ball am Fuß durch ein Tor dribbelt. Dasselbe Tor darf nicht zweimal hintereinander genutzt werden.",
+   "coaching": [
+    "Der Ballführende sucht das freie Tor, nicht das nächstgelegene",
+    "Mitspieler binden Verteidiger, indem sie zu anderen Toren laufen",
+    "Verteidiger decken Tore, nicht Gegenspieler"
+   ],
+   "varianten": [
+    "Durchdribbeln nur mit dem schwächeren Fuß",
+    "Punkt auch für einen Pass durch das Tor an einen Mitspieler",
+    "Fünftes Tor in der Mitte, das doppelt zählt"
+   ],
+   "tags": [
+    "Dribbling",
+    "Spielform",
+    "E-Jugend"
+   ],
+   "id": "db-093",
+   "dauerText": "10–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Ecke lang mit Rückraum",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "Strafraum",
+   "material": "1 Tor, Torwart, Bälle, Hütchen",
+   "ablauf": "Die Ecke wird auf den langen Pfosten geschlagen. Zwei Kinder greifen dort an, ein drittes steht am kurzen Pfosten für den Abpraller, ein viertes im Rückraum an der Strafraumgrenze. Jede Position wird durchgewechselt.",
+   "coaching": [
+    "Der Rückraum ist der wichtigste Platz — dort kommt der zweite Ball hin",
+    "Einlaufen im Bogen von außen nach innen, nicht von vorn",
+    "Die Hereingabe fest schlagen, damit sie nicht abgefangen wird"
+   ],
+   "varianten": [
+    "Zwei Verteidiger im Strafraum",
+    "Nach Klärung sofortiger Konter der Verteidiger",
+    "Wettbewerb: welche Gruppe trifft aus zehn Ecken öfter"
+   ],
+   "tags": [
+    "Standard",
+    "Ecke",
+    "Kopfball"
+   ],
+   "id": "db-094",
+   "dauerText": "10–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Kurze Ecke mit Verlagerung",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "Strafraum",
+   "material": "1 Tor, Torwart, Bälle, 4 Hütchen",
+   "ablauf": "Die Ecke geht kurz zum Anspielpartner, der sie zurücklegt. Statt zu flanken, wird der Ball nun quer an die andere Seite des Strafraums verlagert, von wo die Hereingabe erfolgt. Die Verteidigung muss dabei zweimal verschieben.",
+   "coaching": [
+    "Die Verlagerung braucht Tempo, sonst steht der Gegner wieder",
+    "Einläufer starten erst mit der Verlagerung, nicht vorher",
+    "Zweiter Pfosten wird immer besetzt"
+   ],
+   "varianten": [
+    "Verlagerung flach statt hoch",
+    "Drei Verteidiger, die aktiv verschieben",
+    "Abschluss nur per Direktabnahme"
+   ],
+   "tags": [
+    "Standard",
+    "Ecke",
+    "Verlagerung"
+   ],
+   "id": "db-095",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Ecke verteidigen: Manndeckung",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 18,
+   "feld": "Strafraum",
+   "material": "1 Tor, Torwart, Bälle, Leibchen",
+   "ablauf": "Vier Angreifer gegen vier Verteidiger plus Torwart. Jeder Verteidiger bekommt einen Gegenspieler zugeteilt und muss ihn bis nach dem Abschluss begleiten. Nach jeder Ecke werden die Rollen getauscht.",
+   "coaching": [
+    "Verteidiger stehen seitlich versetzt — Ball und Gegner im Blick",
+    "Nicht auf den Ball starren: der Gegner startet, bevor der Ball kommt",
+    "Nach dem Klären sofort herausrücken, damit kein Abpraller im Rückraum liegt"
+   ],
+   "varianten": [
+    "Zwei Verteidiger übernehmen feste Zonen statt Gegenspieler",
+    "Angreifer dürfen Blocks stellen",
+    "Nach Klärung Konter auf ein Minitor"
+   ],
+   "tags": [
+    "Standard",
+    "Verteidigen",
+    "Ecke"
+   ],
+   "id": "db-096",
+   "dauerText": "12–15 Min.",
+   "spielerText": "10–18 Spieler"
+  },
+  {
+   "titel": "Indirekter Freistoß mit Ablage",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "halber Strafraum",
+   "material": "1 Tor, Torwart, Mauer, Bälle",
+   "ablauf": "Aus 18 bis 22 Metern wird der Freistoß nicht direkt geschossen, sondern seitlich abgelegt. Der zweite Spieler kommt im Anlauf und schließt aus verändertem Winkel ab, an der Mauer vorbei.",
+   "coaching": [
+    "Die Ablage muss weit genug seitlich liegen, damit der Winkel wirklich anders ist",
+    "Der Schütze läuft schon an, während abgelegt wird",
+    "Ein dritter Spieler täuscht den Schuss an und lässt den Ball durch"
+   ],
+   "varianten": [
+    "Mauer darf herausrücken",
+    "Drei Varianten würfeln, damit sie unter Druck abgerufen werden",
+    "Ablage nach hinten statt zur Seite"
+   ],
+   "tags": [
+    "Standard",
+    "Freistoß",
+    "D-Jugend"
+   ],
+   "id": "db-097",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Anstoß-Variante einstudieren",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "Mittelkreis",
+   "material": "Bälle, Hütchen",
+   "ablauf": "Vom Anstoß aus wird eine feste Abfolge gespielt: Ball zurück, Verlagerung auf die Seite, langer Ball in den Lauf des Flügelspielers. Erst ohne Gegner, dann mit passiver, dann mit aktiver Verteidigung.",
+   "coaching": [
+    "Der lange Ball geht in den freien Raum, nicht zum Mitspieler",
+    "Der Flügelspieler startet erst mit der Verlagerung",
+    "Absprache vor dem Anpfiff — im Spiel bleibt keine Zeit dafür"
+   ],
+   "varianten": [
+    "Zweite Variante über die andere Seite",
+    "Mit vollständiger Gegenwehr",
+    "Zeitlimit von acht Sekunden bis zum Abschluss"
+   ],
+   "tags": [
+    "Standard",
+    "Anstoß",
+    "Spielaufbau"
+   ],
+   "id": "db-098",
+   "dauerText": "8–10 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Abstoß spielerisch lösen",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "halbes Feld",
+   "material": "1 Tor, Torwart, Bälle, Leibchen, Hütchen",
+   "ablauf": "Der Torwart eröffnet flach zu einem Verteidiger, der sich in die Breite löst. Zwei Gegner greifen an. Ziel ist es, den Ball über drei Stationen aus der eigenen Hälfte zu bringen — ohne langen Schlag.",
+   "coaching": [
+    "Breit und tief anbieten, nicht in den Deckungsschatten laufen",
+    "Der Torwart ist eine Anspielstation, kein Notausgang",
+    "Bei Druck ruhig zurückspielen und die Seite wechseln"
+   ],
+   "varianten": [
+    "Drei Angreifer, die früh anlaufen",
+    "Punkt nur, wenn die Mittellinie im Passspiel überquert wird",
+    "Torwart darf nur zwei Kontakte"
+   ],
+   "tags": [
+    "Standard",
+    "Spielaufbau",
+    "Torwart"
+   ],
+   "id": "db-099",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Einwurf in der Vorwärtsbewegung",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "25×20 m",
+   "material": "Bälle, Hütchen, Leibchen",
+   "ablauf": "Einwurf an der Seitenlinie in der gegnerischen Hälfte. Ein Mitspieler kommt entgegen und legt klatschen zurück, der Einwerfer läuft sofort ins Feld und bekommt den Ball in die Tiefe. Mit einem Verteidiger je Station.",
+   "coaching": [
+    "Der Einwerfer ist nach dem Wurf der freieste Spieler — das wird meist vergessen",
+    "Entgegenkommen heißt wirklich anlaufen, nicht stehenbleiben",
+    "Schnell ausführen, solange der Gegner noch nicht sortiert ist"
+   ],
+   "varianten": [
+    "Weiter Einwurf an den langen Pfosten",
+    "Zwei Verteidiger",
+    "Einwurf innerhalb von fünf Sekunden ausführen"
+   ],
+   "tags": [
+    "Standard",
+    "Einwurf",
+    "Kombination"
+   ],
+   "id": "db-100",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Strafstoß unter Druck",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 18,
+   "feld": "Strafraum",
+   "material": "1 Tor, Torwart, Bälle",
+   "ablauf": "Jedes Kind schießt einen Strafstoß — aber erst nach einem 20-Meter-Sprint und mit den Zurufen der Mitspieler im Rücken. So wird geübt, was im Spiel wirklich passiert: schießen mit hohem Puls.",
+   "coaching": [
+    "Die Ecke vor dem Anlauf festlegen und dabei bleiben",
+    "Nach dem Sprint einmal durchatmen, dann anlaufen",
+    "Standbein fest neben den Ball — bei Müdigkeit rutscht es leicht weg"
+   ],
+   "varianten": [
+    "Torwart darf sich früh bewegen",
+    "Im Mannschaftswettbewerb mit Ausscheiden",
+    "Nach dem Schuss sofort den Abpraller verwerten"
+   ],
+   "tags": [
+    "Standard",
+    "Elfmeter",
+    "Wettbewerb"
+   ],
+   "id": "db-101",
+   "dauerText": "8–12 Min.",
+   "spielerText": "6–18 Spieler"
+  },
+  {
+   "titel": "Freistoß-Flanke aus dem Halbfeld",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "halbes Feld",
+   "material": "1 Tor, Torwart, Bälle, Hütchen",
+   "ablauf": "Der Freistoß kommt aus dem Halbfeld, etwa 30 Meter vom Tor. Drei Kinder laufen gestaffelt ein: kurzer Pfosten, Mitte, hinterer Pfosten. Der Schütze variiert zwischen hoher Flanke und flachem Ball an den ersten Pfosten.",
+   "coaching": [
+    "Die Staffelung ist wichtiger als das Timing des Einzelnen",
+    "Der flache Ball an den ersten Pfosten ist oft gefährlicher als die hohe Flanke",
+    "Nicht alle in dieselbe Zone laufen"
+   ],
+   "varianten": [
+    "Verteidiger in Abseitslinie",
+    "Kurze Variante mit Ablage statt Flanke",
+    "Nach Klärung Konter der Verteidiger"
+   ],
+   "tags": [
+    "Standard",
+    "Freistoß",
+    "Flanken"
+   ],
+   "id": "db-102",
+   "dauerText": "10–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Standards im Spiel abrufen",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 20,
+   "spielerMin": 12,
+   "spielerMax": 18,
+   "feld": "halbes Feld",
+   "material": "2 Tore, 2 Torwarte, Bälle, Leibchen",
+   "ablauf": "Normales Spiel, aber jeder Ball ins Aus wird als einstudierter Standard ausgeführt — Ecke, Einwurf, Freistoß. Der Trainer unterbricht nicht, sondern beobachtet, ob die Varianten tatsächlich abgerufen werden.",
+   "coaching": [
+    "Standards schnell ausführen, wenn der Gegner nicht sortiert ist",
+    "Absprachen laut treffen, nicht durch Blicke",
+    "Nach jedem Standard sofort wieder ins Spiel finden"
+   ],
+   "varianten": [
+    "Tore nach Standard zählen doppelt",
+    "Jede Mannschaft muss drei verschiedene Varianten zeigen",
+    "Ohne Trainerhinweise spielen und danach besprechen"
+   ],
+   "tags": [
+    "Standard",
+    "Spielform",
+    "Umschalten"
+   ],
+   "id": "db-103",
+   "dauerText": "15–20 Min.",
+   "spielerText": "12–18 Spieler"
+  },
+  {
+   "titel": "Ecke schnell ausführen",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "Strafraum",
+   "material": "1 Tor, Torwart, viele Bälle, Leibchen",
+   "ablauf": "Die Ecke wird nicht in Ruhe aufgebaut, sondern innerhalb von fünf Sekunden nach dem Pfiff ausgeführt — kurz zum nächststehenden Mitspieler. Die Verteidiger dürfen erst mit dem Pfiff in den Strafraum.",
+   "coaching": [
+    "Die schnelle Ecke lebt davon, dass niemand darauf wartet",
+    "Der Anspielpartner steht schon bereit, bevor der Ball liegt",
+    "Lieber ein einfacher Ball früh als ein perfekter Ball spät"
+   ],
+   "varianten": [
+    "Zeitlimit auf drei Sekunden",
+    "Wahlfreiheit zwischen schnell und aufgebaut",
+    "Verteidiger starten aus dem Strafraum heraus"
+   ],
+   "tags": [
+    "Standard",
+    "Ecke",
+    "Tempo"
+   ],
+   "id": "db-104",
+   "dauerText": "8–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Abseits erkennen bei Standards",
+   "kategorie": "Standardsituationen",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 10,
+   "spielerMax": 16,
+   "feld": "halbes Feld",
+   "material": "1 Tor, Torwart, Bälle, Leibchen, Hütchen als Linienmarkierung",
+   "ablauf": "Die Verteidigung übt, bei Freistößen aus dem Halbfeld gemeinsam herauszurücken. Auf ein Kommando des hintersten Spielers schiebt die Kette zeitgleich nach vorn, während der Ball geschlagen wird.",
+   "coaching": [
+    "Ein Kind gibt das Kommando — alle anderen folgen ohne zu diskutieren",
+    "Gemeinsam und zeitgleich, sonst hebt die Linie nicht auf",
+    "Nach dem Herausrücken Blick zum Ball und zum Gegner"
+   ],
+   "varianten": [
+    "Angreifer versuchen bewusst, den Moment abzupassen",
+    "Ohne Kommando, nur nach Blickkontakt",
+    "Mit Schiedsrichter, der Abseits pfeift"
+   ],
+   "tags": [
+    "Standard",
+    "Verteidigen",
+    "Abseits"
+   ],
+   "id": "db-105",
+   "dauerText": "10–12 Min.",
+   "spielerText": "10–16 Spieler"
+  },
+  {
+   "titel": "Grundstellung und seitliches Verschieben",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 1,
+   "spielerMax": 6,
+   "feld": "10×8 m",
+   "material": "1 Tor, Bälle, 4 Hütchen",
+   "ablauf": "Der Torwart verschiebt in der Grundstellung zwischen zwei Hütchen im Tor hin und her. Auf Zuruf kommt ein flacher Ball in eine Ecke. Sechs bis acht Wiederholungen, dann Pause.",
+   "coaching": [
+    "Füße schulterbreit, Gewicht auf den Fußballen, Hände vor dem Körper",
+    "Seitwärts mit Nachstellschritten, nicht kreuzen",
+    "Vor dem Schuss kurz still stehen — nicht im Laufen abtauchen"
+   ],
+   "varianten": [
+    "Zwei Bälle kurz nacheinander",
+    "Hütchenabstand vergrößern",
+    "Vor dem Ball eine Drehung um die eigene Achse"
+   ],
+   "tags": [
+    "Torwart",
+    "Grundtechnik",
+    "E-Jugend"
+   ],
+   "id": "db-106",
+   "dauerText": "10–12 Min.",
+   "spielerText": "1–6 Spieler"
+  },
+  {
+   "titel": "Flachschüsse in die Ecken",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 2,
+   "spielerMax": 6,
+   "feld": "Strafraum",
+   "material": "1 Tor, viele Bälle, Hütchen",
+   "ablauf": "Aus 12 Metern werden abwechselnd flache Bälle in die linke und rechte Ecke geschossen. Der Torwart übt das Abtauchen mit der bodennahen Hand hinter dem Ball. Zehn Bälle je Seite.",
+   "coaching": [
+    "Untere Hand hinter den Ball, obere Hand darüber",
+    "Zum Ball hin abtauchen, nicht seitlich fallen lassen",
+    "Nach der Parade sofort aufstehen und den Abpraller kontrollieren"
+   ],
+   "varianten": [
+    "Schütze täuscht die Ecke an",
+    "Zwei Bälle in Folge auf beide Seiten",
+    "Nach der Parade Abwurf auf ein Ziel"
+   ],
+   "tags": [
+    "Torwart",
+    "Parade",
+    "Technik"
+   ],
+   "id": "db-107",
+   "dauerText": "10–12 Min.",
+   "spielerText": "2–6 Spieler"
+  },
+  {
+   "titel": "Hohe Bälle fangen und fausten",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 2,
+   "spielerMax": 8,
+   "feld": "Strafraum",
+   "material": "1 Tor, Bälle, 2 Hütchen",
+   "ablauf": "Flanken von der Seite. Der Torwart entscheidet: fangen, wenn der Weg frei ist, fausten, wenn Gegenspieler im Weg sind. Zunächst ohne, dann mit passiven Störspielern.",
+   "coaching": [
+    "Absprung vom einen Bein, Knie des anderen zum Schutz nach vorn",
+    "Laut und früh rufen, damit die Abwehr Bescheid weiß",
+    "Beim Fausten weit und in die Breite, nicht nach vorn in die Mitte"
+   ],
+   "varianten": [
+    "Zwei Störspieler, die aktiv angreifen",
+    "Flanken von beiden Seiten im Wechsel",
+    "Nach dem Fangen sofortiger Abwurf zum Konter"
+   ],
+   "tags": [
+    "Torwart",
+    "Flanken",
+    "Strafraumbeherrschung"
+   ],
+   "id": "db-108",
+   "dauerText": "10–15 Min.",
+   "spielerText": "2–8 Spieler"
+  },
+  {
+   "titel": "Torwart-Reaktion aus kurzer Distanz",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 2,
+   "spielerMax": 6,
+   "feld": "8×8 m",
+   "material": "1 Tor, viele Bälle",
+   "ablauf": "Aus sechs Metern werden schnelle, unangekündigte Bälle geschossen. Der Torwart hat kaum Zeit zum Abtauchen — es geht um reine Reaktion mit Händen und Füßen. Serien von zehn Bällen mit ausreichend Pause.",
+   "coaching": [
+    "Hände hoch und vor dem Körper — aus der Nähe kommt kein Ball mehr am Boden an",
+    "Klein bleiben, aber breit machen",
+    "Alles ist erlaubt: Hand, Arm, Fuß, Körper"
+   ],
+   "varianten": [
+    "Zwei Schützen abwechselnd",
+    "Der Torwart dreht sich vor jedem Ball einmal um",
+    "Ein Störspieler verdeckt die Sicht"
+   ],
+   "tags": [
+    "Torwart",
+    "Reaktion",
+    "Kurzdistanz"
+   ],
+   "id": "db-109",
+   "dauerText": "8–12 Min.",
+   "spielerText": "2–6 Spieler"
+  },
+  {
+   "titel": "Abwurf und Abschlag auf Ziel",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 2,
+   "spielerMax": 8,
+   "feld": "halbes Feld",
+   "material": "Bälle, 6 Hütchen als Zielzonen",
+   "ablauf": "Drei Zielzonen in 15, 25 und 35 Metern Entfernung. Der Torwart wirft oder schlägt in die angesagte Zone. Zehn Versuche, gezählt wird die Trefferquote.",
+   "coaching": [
+    "Beim Abwurf den Arm gestreckt durchziehen, Ball flach halten",
+    "Beim Abschlag den Ball vor dem Körper fallen lassen, nicht werfen",
+    "Erst schauen, dann werfen — der freie Mitspieler ist wichtiger als die Weite"
+   ],
+   "varianten": [
+    "Ein beweglicher Mitspieler statt einer festen Zone",
+    "Unter Zeitdruck: fünf Sekunden ab Ballbesitz",
+    "Mit Gegenspieler, der den kurzen Weg zustellt"
+   ],
+   "tags": [
+    "Torwart",
+    "Spieleröffnung",
+    "Präzision"
+   ],
+   "id": "db-110",
+   "dauerText": "10–12 Min.",
+   "spielerText": "2–8 Spieler"
+  },
+  {
+   "titel": "Mitspielender Torwart im Spielaufbau",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "halbes Feld",
+   "material": "1 Tor, Torwart, Bälle, Leibchen, Hütchen",
+   "ablauf": "Der Torwart eröffnet gegen zwei anlaufende Angreifer. Er hat drei Anspielstationen und muss die richtige finden. Gelingt der Aufbau über die Mittellinie, gibt es einen Punkt.",
+   "coaching": [
+    "Der Torwart bewegt sich seitlich aus dem Tor, um Passwinkel zu öffnen",
+    "Ruhe bewahren: der Rückpass ist eine Lösung, kein Fehler",
+    "Vor der Annahme schon wissen, wohin der Ball geht"
+   ],
+   "varianten": [
+    "Drei Angreifer",
+    "Nur zwei Kontakte für den Torwart",
+    "Punkt nur bei Aufbau über die Mitte"
+   ],
+   "tags": [
+    "Torwart",
+    "Spielaufbau",
+    "D-Jugend"
+   ],
+   "id": "db-111",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Torwart-Duell auf zwei Tore",
+   "kategorie": "Torwarttraining",
+   "phase": "abschluss",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 2,
+   "spielerMax": 6,
+   "feld": "25×10 m",
+   "material": "2 Tore, Bälle",
+   "ablauf": "Zwei Torhüter stehen sich in 20 Metern Abstand gegenüber und versuchen abwechselnd, aus der Hand oder nach Ablage ins gegnerische Tor zu treffen. Wer trifft, bekommt einen Punkt; wer hält, darf sofort abschließen.",
+   "coaching": [
+    "Nach der Parade sofort in die Vorwärtsbewegung",
+    "Flach und platziert schießen — hohe Bälle werden gefangen",
+    "Grundstellung nach jedem eigenen Abschluss sofort wiederherstellen"
+   ],
+   "varianten": [
+    "Torabstand verkürzen",
+    "Nur Direktabnahme erlaubt",
+    "Mit Feldspielern, die den Abpraller verwerten"
+   ],
+   "tags": [
+    "Torwart",
+    "Fun",
+    "Wettbewerb"
+   ],
+   "id": "db-112",
+   "dauerText": "8–12 Min.",
+   "spielerText": "2–6 Spieler"
+  },
+  {
+   "titel": "Torwart bei Rückpass unter Druck",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 3,
+   "spielerMax": 8,
+   "feld": "Strafraum",
+   "material": "1 Tor, Bälle, Leibchen, Hütchen",
+   "ablauf": "Ein Mitspieler spielt einen Rückpass in unterschiedlicher Schärfe, während ein Angreifer anläuft. Der Torwart muss mit dem Fuß klären oder sicher weiterspielen — die Hand ist verboten.",
+   "coaching": [
+    "Erster Kontakt zur offenen Seite, weg vom Angreifer",
+    "Schwacher Fuß gehört dazu — sonst ist eine Seite immer zu",
+    "Im Zweifel klären, aber bewusst und nicht panisch"
+   ],
+   "varianten": [
+    "Rückpass in den Lauf statt in die Füße",
+    "Zwei Angreifer von beiden Seiten",
+    "Nur der schwache Fuß erlaubt"
+   ],
+   "tags": [
+    "Torwart",
+    "Rückpass",
+    "Fußarbeit"
+   ],
+   "id": "db-113",
+   "dauerText": "10–12 Min.",
+   "spielerText": "3–8 Spieler"
+  },
+  {
+   "titel": "Torwart-Koordination mit Ball",
+   "kategorie": "Torwarttraining",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 1,
+   "spielerMax": 6,
+   "feld": "10×10 m",
+   "material": "1 Ball, 6 Hütchen, Koordinationsleiter falls vorhanden",
+   "ablauf": "Der Torwart durchläuft eine kurze Koordinationsstrecke — Seitwärtsschritte, Sprung, Drehung — und fängt am Ende einen zugeworfenen Ball. Sechs Durchgänge mit Pausen.",
+   "coaching": [
+    "Saubere Fußarbeit vor Tempo",
+    "Nach der letzten Station sofort in die Grundstellung",
+    "Beim Fangen die Augen am Ball behalten, nicht am Boden"
+   ],
+   "varianten": [
+    "Ball aus wechselnder Richtung",
+    "Zwei Bälle kurz nacheinander",
+    "Strecke rückwärts durchlaufen"
+   ],
+   "tags": [
+    "Torwart",
+    "Koordination",
+    "Aufwärmen"
+   ],
+   "id": "db-114",
+   "dauerText": "8–10 Min.",
+   "spielerText": "1–6 Spieler"
+  },
+  {
+   "titel": "Torwart im 2 gegen 1",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 4,
+   "spielerMax": 10,
+   "feld": "25×20 m",
+   "material": "1 Tor, Bälle, Leibchen",
+   "ablauf": "Zwei Angreifer laufen gegen einen Verteidiger und den Torwart. Der Torwart muss entscheiden: auf den Ballführenden herausgehen oder den Querpass abwarten. Nach jedem Durchgang Rollentausch.",
+   "coaching": [
+    "Nicht auf halbem Weg stehenbleiben — entweder raus oder auf der Linie bleiben",
+    "Den Querpass durch die eigene Stellung schwer machen",
+    "Mit dem Verteidiger sprechen: wer nimmt wen"
+   ],
+   "varianten": [
+    "3 gegen 2",
+    "Der Verteidiger startet mit Rückstand",
+    "Nach der Parade sofort zweiter Ball"
+   ],
+   "tags": [
+    "Torwart",
+    "Entscheidung",
+    "1v1"
+   ],
+   "id": "db-115",
+   "dauerText": "10–15 Min.",
+   "spielerText": "4–10 Spieler"
+  },
+  {
+   "titel": "Sicht verdeckt: Schüsse durch die Mauer",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 3,
+   "spielerMax": 10,
+   "feld": "Strafraum",
+   "material": "1 Tor, Bälle, Mauer-Dummies oder Kinder",
+   "ablauf": "Freistöße aus 18 Metern gegen eine Mauer. Der Torwart sieht den Ball erst spät und muss die nicht abgedeckte Ecke halten. Der Schütze variiert zwischen über die Mauer und um sie herum.",
+   "coaching": [
+    "Position seitlich versetzt, damit die freie Ecke erreichbar bleibt",
+    "Erst im letzten Moment abtauchen, nicht auf Verdacht",
+    "Nach dem Schuss die Mauer im Blick behalten — Abpraller kommen von dort"
+   ],
+   "varianten": [
+    "Mauer springt",
+    "Zwei Bälle kurz nacheinander",
+    "Der Torwart darf die Mauer selbst stellen"
+   ],
+   "tags": [
+    "Torwart",
+    "Freistoß",
+    "Sicht"
+   ],
+   "id": "db-116",
+   "dauerText": "10–12 Min.",
+   "spielerText": "3–10 Spieler"
+  },
+  {
+   "titel": "Torwart-Ausdauerserie",
+   "kategorie": "Torwarttraining",
+   "phase": "hauptteil",
+   "dauerMin": 8,
+   "dauerMax": 10,
+   "spielerMin": 2,
+   "spielerMax": 6,
+   "feld": "Strafraum",
+   "material": "1 Tor, viele Bälle",
+   "ablauf": "Sechs Bälle in Folge ohne Pause: flach links, flach rechts, halbhoch mittig, Flanke, Rückpass mit dem Fuß, Abschluss aus kurzer Distanz. Danach zwei Minuten Pause, dann die nächste Serie.",
+   "coaching": [
+    "Nach jeder Parade sofort in die Grundstellung — das ist der eigentliche Inhalt",
+    "Technik behalten, auch wenn die Beine schwer werden",
+    "Zwischen den Serien wirklich pausieren, sonst wird es Ausdauertraining ohne Technik"
+   ],
+   "varianten": [
+    "Serie auf acht Bälle verlängern",
+    "Reihenfolge zufällig ansagen",
+    "Nach der Serie einen Strafstoß halten"
+   ],
+   "tags": [
+    "Torwart",
+    "Serie",
+    "Kondition"
+   ],
+   "id": "db-117",
+   "dauerText": "8–10 Min.",
+   "spielerText": "2–6 Spieler"
+  },
+  {
+   "titel": "1 gegen 1 mit Rückwärtsverteidigen",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "25×15 m",
+   "material": "1 Tor, Torwart, Bälle, Leibchen",
+   "ablauf": "Der Angreifer startet mit Ball, der Verteidiger steht zunächst vor ihm und muss rückwärts verteidigend zum eigenen Tor arbeiten. Ziel des Verteidigers ist es, den Angreifer nach außen zu lenken.",
+   "coaching": [
+    "Rückwärts im Seitwärtsschritt, nicht rückwärts rennen",
+    "Eine Seite zumachen und den Gegner dorthin lenken, wo man ihn haben will",
+    "Erst zugreifen, wenn der Ball vom Fuß weg ist"
+   ],
+   "varianten": [
+    "Zweiter Verteidiger rückt nach",
+    "Zeitlimit für den Angreifer",
+    "Angreifer darf zu einem Mitspieler ablegen"
+   ],
+   "tags": [
+    "1v1",
+    "Verteidigen",
+    "D-Jugend"
+   ],
+   "id": "db-118",
+   "dauerText": "10–15 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Käfig-Duell 1 gegen 1",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "10×8 m",
+   "material": "4 Hütchen, Bälle, Leibchen",
+   "ablauf": "Zwei Kinder spielen in einem sehr kleinen Feld gegeneinander. Punkt bekommt, wer den Ball auf der gegnerischen Grundlinie stoppt. Wegen der Enge sind Finten und Ballschutz entscheidend. 45 Sekunden je Duell.",
+   "coaching": [
+    "In der Enge Ball dicht am Fuß und Körper dazwischen",
+    "Finte direkt vor dem Gegner, nicht drei Meter davor",
+    "Nach dem Vorbeigehen sofort abschließen, der Raum ist gleich wieder zu"
+   ],
+   "varianten": [
+    "Feld noch kleiner",
+    "Zwei gegen zwei im selben Raum",
+    "Sieger bleibt, Verlierer wechselt"
+   ],
+   "tags": [
+    "1v1",
+    "Ballschutz",
+    "Wettbewerb"
+   ],
+   "id": "db-119",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Tempodribbling mit Abschluss",
+   "kategorie": "Zweikampf, Dribbling & 1v1",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 16,
+   "feld": "30×15 m",
+   "material": "1 Tor, Torwart, Hütchen, viele Bälle",
+   "ablauf": "Auf 20 Metern freie Bahn wird mit hohem Tempo gedribbelt, danach folgt ein Hütchentor als Engstelle und direkt der Abschluss. Es geht um den Wechsel zwischen schnellem Laufen und kontrollierter Ballführung.",
+   "coaching": [
+    "Auf freier Bahn den Ball weit vorlegen und laufen",
+    "Vor der Engstelle Tempo herausnehmen und Kontakte verkürzen",
+    "Nach der Engstelle sofort wieder beschleunigen"
+   ],
+   "varianten": [
+    "Zwei Engstellen hintereinander",
+    "Mit Gegenspieler an der Engstelle",
+    "Zeitmessung mit Torpflicht"
+   ],
+   "tags": [
+    "Dribbling",
+    "Tempo",
+    "Torschuss"
+   ],
+   "id": "db-120",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–16 Spieler"
+  },
+  {
+   "titel": "Direktspiel im Quadrat",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "12×12 m",
+   "material": "4 Hütchen, 2 Bälle",
+   "ablauf": "Vier Gruppen an den Ecken. Der Ball wird direkt zur nächsten Ecke gespielt, ohne Annahme. Nach zwei Minuten kommt ein zweiter Ball hinzu, dann wird die Richtung gewechselt.",
+   "coaching": [
+    "Standbein früh setzen, Fuß fest — Direktpässe verzeihen keine Wackler",
+    "Der Empfänger stellt sich schon vor dem Pass richtig",
+    "Passhöhe: flach, sonst ist direkt nicht spielbar"
+   ],
+   "varianten": [
+    "Nur mit dem schwachen Fuß",
+    "Diagonal statt außen herum",
+    "Nach dem Pass zur übernächsten Ecke laufen"
+   ],
+   "tags": [
+    "Passen",
+    "Direktspiel",
+    "Technik"
+   ],
+   "id": "db-121",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Lange Bälle und Ballannahme aus der Luft",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "40×20 m",
+   "material": "Bälle, 6 Hütchen",
+   "ablauf": "Paarweise in 25 Metern Abstand. Der Ball wird hoch zugespielt, der Empfänger nimmt ihn mit Brust, Oberschenkel oder Innenseite herunter und spielt zurück. Nach jedem Durchgang wird der Abstand leicht verändert.",
+   "coaching": [
+    "Unter den Ball kommen, nicht daneben stehen",
+    "Beim Annehmen nachgeben — den Kontaktpunkt weich machen",
+    "Erster Kontakt vom Gegner weg, nicht direkt vor die Füße"
+   ],
+   "varianten": [
+    "Annahme nur mit einem vorgegebenen Körperteil",
+    "Mit passivem Gegenspieler im Rücken",
+    "Nach der Annahme sofort abschließen"
+   ],
+   "tags": [
+    "Ballannahme",
+    "Lange Bälle",
+    "D-Jugend"
+   ],
+   "id": "db-122",
+   "dauerText": "10–15 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Rondo mit Doppelfeld",
+   "kategorie": "Passspiel & Ballkontrolle",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 16,
+   "feld": "10×20 m",
+   "material": "8 Hütchen, Bälle, Leibchen",
+   "ablauf": "Zwei quadratische Felder nebeneinander. In einem läuft ein 4 gegen 2. Gelingt ein Pass ins zweite Feld, wandern zwei Verteidiger mit hinüber und das Spiel läuft dort weiter.",
+   "coaching": [
+    "Der Verlagerungspass ist das Ziel — Ballhalten allein bringt keinen Punkt",
+    "Im zweiten Feld schon Position beziehen, bevor der Ball kommt",
+    "Verteidiger müssen früh loslaufen, sonst kommen sie nie an"
+   ],
+   "varianten": [
+    "Nur zwei Kontakte",
+    "Drei Felder in Reihe",
+    "Punkt nur bei Verlagerung durch die Mitte"
+   ],
+   "tags": [
+    "Rondo",
+    "Verlagerung",
+    "Positionsspiel"
+   ],
+   "id": "db-123",
+   "dauerText": "12–15 Min.",
+   "spielerText": "10–16 Spieler"
+  },
+  {
+   "titel": "Staffel mit Kognitionsaufgabe",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "25×15 m",
+   "material": "Hütchen in vier Farben, Bälle",
+   "ablauf": "Zwei Mannschaften. Vor dem Start ruft der Trainer eine Farbenfolge, etwa \"rot, blau, gelb\". Das laufende Kind muss die Hütchen in genau dieser Reihenfolge umlaufen und zurückkommen. Fehler bedeuten eine Strafrunde.",
+   "coaching": [
+    "Die Folge laut wiederholen, bevor man losläuft",
+    "An den Hütchen sauber abbremsen statt zu schlittern",
+    "Als Mannschaft mitdenken und zurufen"
+   ],
+   "varianten": [
+    "Vier Farben statt drei",
+    "Folge rückwärts ablaufen",
+    "Mit Ball am Fuß"
+   ],
+   "tags": [
+    "Sprint",
+    "Kognition",
+    "Wettbewerb"
+   ],
+   "id": "db-124",
+   "dauerText": "10–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Wechselsprint mit Ballübergabe",
+   "kategorie": "Lauf- & Sprintspiele mit und ohne Ball",
+   "phase": "aufwaermen",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 18,
+   "feld": "30×15 m",
+   "material": "4 Hütchen, 4 Bälle",
+   "ablauf": "Zwei Kinder starten gleichzeitig von gegenüberliegenden Seiten, treffen sich in der Mitte, übergeben den Ball und laufen zur jeweils anderen Seite weiter. Die nächsten starten sofort.",
+   "coaching": [
+    "Die Übergabe im Laufen, nicht im Stehen",
+    "Auf die richtige Seite ausweichen und vorher Blickkontakt",
+    "Nach der Übergabe sofort wieder beschleunigen"
+   ],
+   "varianten": [
+    "Übergabe per Pass statt Handübergabe",
+    "Drei Bahnen gleichzeitig",
+    "Auf Zeit gegen eine andere Gruppe"
+   ],
+   "tags": [
+    "Sprint",
+    "Koordination",
+    "Staffel"
+   ],
+   "id": "db-125",
+   "dauerText": "8–12 Min.",
+   "spielerText": "8–18 Spieler"
+  },
+  {
+   "titel": "Torschuss nach Drehung",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 10,
+   "dauerMax": 12,
+   "spielerMin": 6,
+   "spielerMax": 14,
+   "feld": "25×20 m",
+   "material": "1 Tor, Torwart, Bälle, Hütchen",
+   "ablauf": "Der Schütze steht mit dem Rücken zum Tor an einem Hütchen. Der Zuspieler passt flach an, der Schütze dreht mit dem ersten Kontakt auf und schließt mit dem zweiten ab.",
+   "coaching": [
+    "Vor der Annahme schon einmal über die Schulter schauen",
+    "Aufdrehen zur bevorzugten Schussseite",
+    "Erster Kontakt weit genug weg, um Anlauf zu haben"
+   ],
+   "varianten": [
+    "Passiver Verteidiger im Rücken",
+    "Nur ein Kontakt bis zum Abschluss",
+    "Zuspiel von wechselnden Seiten"
+   ],
+   "tags": [
+    "Torschuss",
+    "Aufdrehen",
+    "Ballmitnahme"
+   ],
+   "id": "db-126",
+   "dauerText": "10–12 Min.",
+   "spielerText": "6–14 Spieler"
+  },
+  {
+   "titel": "Flügelspiel mit Hinterlaufen",
+   "kategorie": "Torschuss & Flügelspiel",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "halbes Feld",
+   "material": "1 Tor, Torwart, Bälle, Hütchen, Leibchen",
+   "ablauf": "Der Außenspieler bekommt den Ball, ein Mitspieler hinterläuft ihn. Der Ballführende entscheidet: selbst andribbeln und flanken oder den Hinterlaufenden bedienen. Zwei Kinder laufen in den Strafraum ein.",
+   "coaching": [
+    "Der Hinterlaufende startet erst, wenn der Ball beim Außenspieler ankommt",
+    "Blickkontakt vor dem Hinterlaufen — sonst wird es ein Zufallspass",
+    "Wenn der Verteidiger mitgeht, ist der Ballführende frei"
+   ],
+   "varianten": [
+    "Verteidiger auf der Außenbahn",
+    "Beide Seiten gleichzeitig",
+    "Nur Flanken nach Hinterlaufen zählen"
+   ],
+   "tags": [
+    "Flügelspiel",
+    "Kombination",
+    "Flanken"
+   ],
+   "id": "db-127",
+   "dauerText": "12–15 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Der Ball muss durch alle Zonen",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 15,
+   "dauerMax": 20,
+   "spielerMin": 10,
+   "spielerMax": 18,
+   "feld": "35×25 m, drei Zonen",
+   "material": "Hütchen zur Zonenmarkierung, 2 Tore, Bälle, Leibchen",
+   "ablauf": "Das Feld ist in drei Zonen geteilt. Ein Tor zählt nur, wenn der Ball vorher in jeder Zone einmal kontrolliert wurde. So wird geduldiges Aufbauen belohnt statt langem Schlagen.",
+   "coaching": [
+    "In jeder Zone jemanden anbieten — sonst geht es nicht weiter",
+    "Der lange Ball ist verboten, das ist der Sinn der Übung",
+    "Beim Verteidigen die Zonenübergänge zustellen"
+   ],
+   "varianten": [
+    "Nur zwei Kontakte je Zone",
+    "Eine Zone darf übersprungen werden, Tor zählt dann einfach",
+    "Vier Zonen"
+   ],
+   "tags": [
+    "Spielaufbau",
+    "Ballbesitz",
+    "Spielform"
+   ],
+   "id": "db-128",
+   "dauerText": "15–20 Min.",
+   "spielerText": "10–18 Spieler"
+  },
+  {
+   "titel": "Pressingauslöser üben",
+   "kategorie": "Spielformen, Taktik & Gegenpressing",
+   "phase": "hauptteil",
+   "dauerMin": 12,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 18,
+   "feld": "30×25 m",
+   "material": "2 Minitore, Bälle, Leibchen",
+   "ablauf": "Eine Mannschaft baut auf, die andere darf erst pressen, wenn ein festgelegtes Signal eintritt: Rückpass, schlechter erster Kontakt oder Ball zur Außenlinie. Vorher wird nur Position gehalten.",
+   "coaching": [
+    "Auf das Signal warten — zu frühes Anlaufen öffnet den Raum dahinter",
+    "Gemeinsam anlaufen, nicht einzeln",
+    "Nach dem Signal sofort die Rückpasswege zustellen"
+   ],
+   "varianten": [
+    "Zwei Signale gleichzeitig",
+    "Nach Ballgewinn müssen drei Sekunden bis zum Abschluss reichen",
+    "Aufbauende Mannschaft bekommt einen zusätzlichen Spieler"
+   ],
+   "tags": [
+    "Gegenpressing",
+    "Pressing",
+    "C-Jugend"
+   ],
+   "id": "db-129",
+   "dauerText": "12–15 Min.",
+   "spielerText": "10–18 Spieler"
+  },
+  {
+   "titel": "Torschuss-Duell auf Zeit",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 8,
+   "dauerMax": 12,
+   "spielerMin": 8,
+   "spielerMax": 16,
+   "feld": "30×20 m",
+   "material": "2 Tore, 2 Torwarte, viele Bälle",
+   "ablauf": "Zwei Mannschaften, jede an einem Tor. In 90 Sekunden schließt jedes Kind so oft wie möglich ab — dribbeln, schießen, Ball holen, wieder anstellen. Gezählt werden die Treffer.",
+   "coaching": [
+    "Tempo halten, aber vor dem Schuss kurz stabilisieren",
+    "Bälle zügig zurückholen, das ist Teil des Wettbewerbs",
+    "Nicht dieselbe Ecke immer wieder"
+   ],
+   "varianten": [
+    "Nur mit dem schwachen Fuß",
+    "Distanz vergrößern",
+    "Nach jedem Treffer einen Schritt zurück"
+   ],
+   "tags": [
+    "Torschuss",
+    "Wettbewerb",
+    "Fun"
+   ],
+   "id": "db-130",
+   "dauerText": "8–12 Min.",
+   "spielerText": "8–16 Spieler"
+  },
+  {
+   "titel": "Menschlicher Tischkicker",
+   "kategorie": "Abschlüsse & Fun-Spiele",
+   "phase": "abschluss",
+   "dauerMin": 10,
+   "dauerMax": 15,
+   "spielerMin": 10,
+   "spielerMax": 18,
+   "feld": "30×20 m",
+   "material": "2 Tore, Bälle, Leibchen, Hütchen als Bahnmarkierung",
+   "ablauf": "Jedes Kind darf sich nur in einer festgelegten Querbahn bewegen, wie beim Tischkicker. Gespielt wird normal auf zwei Tore. Nach fünf Minuten dürfen zwei Kinder je Mannschaft ihre Bahn verlassen.",
+   "coaching": [
+    "Wer nicht ballnah ist, verschiebt trotzdem mit",
+    "Der Pass in die nächste Reihe muss präzise sein",
+    "Kommunikation ist Pflicht — man sieht nicht alles"
+   ],
+   "varianten": [
+    "Bahnen breiter machen",
+    "Zwei Kinder pro Bahn",
+    "Nach jedem Tor eine Bahn weiterrücken"
+   ],
+   "tags": [
+    "Fun",
+    "Verschieben",
+    "Spielform"
+   ],
+   "id": "db-131",
+   "dauerText": "10–15 Min.",
+   "spielerText": "10–18 Spieler"
+  }
+ ]
+}
