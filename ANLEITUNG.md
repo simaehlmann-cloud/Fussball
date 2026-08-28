@@ -307,6 +307,9 @@ verschwinden zu lassen.
 Jede Einheit führt ihre eigene Phasenliste. Du kannst also für das Dienstagstraining eine
 andere Einteilung nutzen als für das Freitagstraining.
 
+Die Bausteine liegen **im Termin**, nicht in der Terminliste: In der Liste auf einen
+Termin tippen, dann stehen dort Anwesenheit, *Einheit planen* und Notizen untereinander.
+
 ### Zeiten und Gesamtdauer
 
 Je Phase kommen Bausteine hinein — entweder **aus dem Katalog** (131 ausgearbeitete Übungen
@@ -324,6 +327,16 @@ Die Dauer je Baustein tippst du direkt ein. Daraus ergibt sich alles Weitere:
 
 Über **Einheit teilen** bekommst du den fertigen Ablauf als Text für die Zwischenablage
 oder WhatsApp — mit Zeiten je Phase und Gesamtdauer.
+
+### Zurück-Taste
+
+Die Zurück-Taste arbeitet sich Ebene für Ebene durch die Oberfläche: erst die
+Übungsauswahl, dann der Termin, dann zurück auf die Spieltage. **Die App wird dabei nicht
+verlassen.** Wer sie im Browser wirklich schließen will, schließt den Tab; in der
+Android-App genügt zweimal Zurück auf der Spieltagsliste.
+
+Aus der Übungsauswahl kommst du außerdem jederzeit über das **×** oben rechts heraus, auch
+mitten aus der Beschreibung einer Übung — es wird dann nichts übernommen.
 
 ### Der Übungskatalog
 
