@@ -7,14 +7,18 @@
  *   - Uebrige Assets (Icons, Bibliotheken, datenschutz.html): CACHE FIRST,
  *     da sie sich praktisch nie aendern und offline sofort da sein muessen.
  */
-const CACHE_NAME = 'tacticboard-v3.2';
+const CACHE_NAME = 'tacticboard-v3.7';
 const SHELL = './index.html';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './image.png',
-  './datenschutz.html'
+  './icon_maskable.png',
+  './datenschutz.html',
+  './impressum.html',
+  './datenschutz-en.html',
+  './impressum-en.html'
 ];
 
 self.addEventListener('install', event => {
@@ -27,9 +31,12 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
+  // Nur EIGENE alte Caches loeschen: Cache Storage gilt fuer den ganzen Ursprung.
+  // Laeuft die App eingebettet (Kaderplaner + Taktiktafel + PitchPro auf einer
+  // Seite), wuerde sonst jede Aktualisierung die Offline-Daten der anderen loeschen.
   event.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(keys.map(key => key !== CACHE_NAME ? caches.delete(key) : null)))
+      .then(keys => Promise.all(keys.map(key => key !== CACHE_NAME && key.indexOf('tacticboard-') === 0 ? caches.delete(key) : null)))
       .then(() => self.clients.claim())
   );
 });

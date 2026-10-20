@@ -71,9 +71,20 @@ Dann funktioniert er auch im Funkloch am Sportplatz.
 
 ## Aktualisieren
 
-Aendert sich die Taktiktafel, die sechs Dateien einfach erneut hierher kopieren. Weil es
+Aendert sich die Taktiktafel, die Dateien einfach erneut hierher kopieren (seit 2.4.0 sind
+es zehn: dazu `icon_maskable.png` und die Impressums-/Datenschutzseiten auf Englisch, die
+der Service Worker mit cacht). Weil es
 eine Kopie ist, entscheidest du selbst, wann das passiert.
 
 Zeigt sie danach eine alte Fassung: Das ist ihr eigener Service Worker. `index.html` holt
 er ohnehin immer neu (Network-First); fuer die uebrigen Dateien muss in `sw.js` der
 `CACHE_NAME` erhoeht werden.
+
+## Stand
+
+| | |
+|---|---|
+| Version | TacticBoard 2.4.0 (Commit `3865758`, 02.10.2026) |
+| `index.html` SHA-256 | `359d6ef940c9ca82cce41eec72cffb021d48aa6fc5f3fcabe8ef5d16b1df5691` |
+| `sw.js` | angepasst: löscht nur noch eigene Caches (Branch `sw-cache-scope`, SHA-256 `efd89e335cdacd86aafb52f7830038e2582e53c8d3a62399025e6d89ba14069e`) |
+| vorher | 2.1.3 (Commit `a40864d`, 22.08.2026) |
