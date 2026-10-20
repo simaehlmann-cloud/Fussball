@@ -12,6 +12,7 @@ on:
       - 'app.js'
       - 'styles.css'
       - 'taktik/**'
+      - 'pitch/**'
       - 'uebungen.json'
       - 'sw.js'
       - 'manifest.webmanifest'
@@ -85,6 +86,14 @@ jobs:
             echo "Taktiktafel mitgenommen ($(find taktik -type f | wc -l) Dateien)"
           else
             echo "Kein Ordner taktik/ - die App zeigt dort einen Hinweis."
+          fi
+          # Spielprotokoll (PitchPro) fuer den Reiter "Live" - gleiches Prinzip.
+          # Fehlt der Ordner, bleibt der Reiter leer; deshalb hier laut melden.
+          if [ -f pitch/index.html ]; then
+            cp -r pitch www/
+            echo "Spielprotokoll mitgenommen ($(find pitch -type f | wc -l) Dateien)"
+          else
+            echo "::warning::Kein Ordner pitch/ - der Reiter Live bleibt leer."
           fi
           ls -la www
 
