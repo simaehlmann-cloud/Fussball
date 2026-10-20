@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "PitchPro",
+  "short_name": "PitchPro",
+  "description": "Tore, Karten und Wechsel am Spielfeldrand protokollieren – mit Spielzeiten und Wechselerinnerung.",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1a1a",
+  "theme_color": "#111111",
+  "icons": [
+    { "src": "image.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon_maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
