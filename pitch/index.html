@@ -1726,13 +1726,15 @@ function afterEvent(eid){
 --------------------------------------------------------------------- */
 let STACK = [{ v: 'home' }];
 const cur = () => STACK[STACK.length - 1];
-function go(route){ closeSheet(); STACK.push(route); render(true); }
-function replace(route){ closeSheet(); STACK[STACK.length - 1] = route; render(true); }
+function go(route){ closeSheet(); STACK.push(route); render(true); navDone(); }
+function replace(route){ closeSheet(); STACK[STACK.length - 1] = route; render(true); navDone(); }
 function back(){
   if(sheetOpen()){ closeSheet(); return true; }
-  if(STACK.length > 1){ STACK.pop(); render(true); return true; }
+  if(STACK.length > 1){ STACK.pop(); render(true); navDone(); return true; }
   return false;
 }
+/* Nach einem Ansichtswechsel: zurueckgehaltene Ergebnisse (nachgetragene Spiele) melden */
+function navDone(){ try { bridgeAfterSave(); } catch(e){} }
 
 /* ---------------------------------------------------------------------
    AUSWAHLBLATT
@@ -2618,6 +2620,7 @@ function prepareFromMatchday(md, kp){
   save();
   const d = newDraft({ ownId: team.id, oppName: md.opponent || '', isHome: md.home !== false, note: t.fromMatchday });
   if(md.onField) d.settings.playersOnField = md.onField;   // Spielform vom Kaderplaner (z. B. 4+1 -> 5)
+  if(md.past){ d.past = true; d.date = md.isoDate; }
   const opp = md.opponent && DB.teams.find(x => !x.isOwn && x.name.toLowerCase() === md.opponent.toLowerCase());
   if(opp) d.oppId = opp.id;
   const byName = n => team.players.find(p => p.name.toLowerCase() === n.toLowerCase());
@@ -2948,7 +2951,7 @@ const A = {
       startingIds: team.players.filter(p => role(d, p.id) === 'start').map(p => p.id),
       keeperId: d.keeperId, settings: Object.assign({}, d.settings), clock: Clock.fresh(), events: [], reminderAckMs: 0
     };
-    if(d.kp && !d.past){
+    if(d.kp){
       const kp = cleanKp(d.kp, new Set(players.map(p => p.id)));
       if(kp) m.kp = kp;
     }
@@ -3353,7 +3356,8 @@ document.addEventListener('keydown', e => {
    der ganze Block wirkungslos.
 
    Kaderplaner -> PitchPro
-     kp:start-match { matchId, team, date, opponent, home, onField?, players:[{ id, name, number, keeper, role? }] }
+     kp:start-match { matchId, team, date, opponent, home, onField?, past?, players:[{ id, name, number, keeper, role? }] }
+                    past: true -> "Spiel nachtragen" (ohne Uhr, Datum = date im Format JJJJ-MM-TT)
      kp:back        Android-Zuruecktaste; Antwort pp:back { handled }
      kp:resync      alle Ergebnisse erneut senden
      kp:caps        { share }  der Rahmen kann Text nativ teilen
@@ -3407,8 +3411,14 @@ function matchResult(m){
    spaeterem Bearbeiten im Bericht. Unveraenderte Staende werden nicht wiederholt. */
 function bridgeAfterSave(force){
   if(!EMBEDDED) return;
+  const ansicht = cur();
   DB.matches.forEach(m => {
     if(!m.kp || m.clock.status !== 'finished') return;
+    // Nachgetragenes Spiel, das gerade bearbeitet wird: noch nicht melden -
+    // sonst kaeme schon beim Anlegen ein 0:0 an und danach jedes Zwischenergebnis.
+    // Gemeldet wird beim Verlassen (go/replace/back rufen die Bruecke).
+    // ('new' = gerade beim Anlegen - dort wird gespeichert, bevor die Ansicht wechselt)
+    if(m.manual && ansicht && (ansicht.v === 'new' || (ansicht.v === 'live' && ansicht.id === m.id))) return;
     let r; try { r = matchResult(m); } catch(e){ return; }
     const j = JSON.stringify(r);
     if(!force && bridgeSent[m.id] === j) return;
@@ -3436,9 +3446,12 @@ function startFromKaderplaner(d){
   const team = kpStr(d.team, 50);
   if(!team || !players.length) return;
   const of = Number(d.onField);
+  const iso = typeof d.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.date) ? d.date : '';
   const md = { team, date: kpStr(d.date, 20), opponent: kpStr(d.opponent, 50), home: d.home !== false,
                players, hasLineup: players.some(p => p.role !== 'squad'),
-               onField: isFinite(of) && of >= 1 && of <= 11 ? Math.round(of) : null };
+               onField: isFinite(of) && of >= 1 && of <= 11 ? Math.round(of) : null,
+               // Vergangener Spieltag: ohne Uhr nachtragen, mit dem Datum aus dem Kaderplaner
+               past: d.past === true && !!iso, isoDate: iso };
   STACK = [{ v: 'home' }];
   prepareFromMatchday(md, { matchId: d.matchId, names });
 }

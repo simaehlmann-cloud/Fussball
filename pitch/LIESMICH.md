@@ -22,4 +22,4 @@ Nicht ändern – Anpassungen gehören ins Original-Repository.
 | | |
 |---|---|
 | Version | PitchPro 1.0.0 mit Kaderplaner-Brücke (Branch `kaderplaner-bridge`) |
-| `index.html` SHA-256 | `752b81787a60eded8ee8f8098796897780848196c73061d3718e7391f9a37a5f` |
+| `index.html` SHA-256 | `da2c61f5811e86b5be80a3b79f6a412902ae8951b1d996df636db9a9a8280ce8` |
