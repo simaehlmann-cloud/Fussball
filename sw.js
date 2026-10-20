@@ -20,7 +20,7 @@
  * ------------------------------------------------------------------
  */
 
-const CACHE = 'u11-kaderplaner-v1';
+const CACHE = 'u11-kaderplaner-v2';
 const NETZ_ZEITLIMIT_MS = 3000;
 
 /* Beim Installieren vorgeladen, damit der erste Start ohne Netz gelingt.
@@ -49,11 +49,14 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
+  // Nur EIGENE alte Caches loeschen: Cache Storage gilt fuer den ganzen Ursprung.
+  // Laeuft die App eingebettet (Kaderplaner + Taktiktafel + PitchPro auf einer
+  // Seite), wuerde sonst jede Aktualisierung die Offline-Daten der anderen loeschen.
   event.waitUntil(
     caches
       .keys()
       .then((namen) =>
-        Promise.all(namen.map((name) => (name !== CACHE ? caches.delete(name) : null))),
+        Promise.all(namen.map((name) => (name !== CACHE && name.startsWith('u11-kaderplaner-') ? caches.delete(name) : null))),
       )
       .then(() => self.clients.claim()),
   );

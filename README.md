@@ -21,7 +21,8 @@ Wer sie zu zweit nutzen will, hinterlegt eine gemeinsame Ablage — siehe `ANLEI
 | `icon-*.png`, `apple-touch-icon.png` | App-Symbol |
 | `wappen.png` | Wappen in der Kopfzeile |
 | `assets/` | Vorlagen für die App-Symbole beim APK-Bau |
-| `taktik/` | Platz für die Taktiktafel — siehe unten |
+| `taktik/` | Taktiktafel (TacticBoard), siehe `taktik/LIESMICH.md` |
+| `pitch/` | Spielprotokoll (PitchPro) für den Reiter „Live“, siehe `pitch/LIESMICH.md` |
 | `.github/workflows/android-apk.yml` | baut die Android-App |
 | `capacitor.config.json`, `package.json` | Einstellungen für den APK-Bau |
 | `sw.js` | macht die App offlinefähig (netzwerk-zuerst) |
@@ -44,7 +45,7 @@ Alles Weitere steht in `ANLEITUNG.md`.
 ## Wichtig: der Quelltext liegt nicht hier
 
 `app.js` ist das **gebaute Ergebnis**, nicht der Bauplan. Der Quelltext ist eine einzelne
-Datei `App.jsx` (rund 6.100 Zeilen). Sie gehört **nicht** ins Repository, sondern auf den
+Datei `App.jsx` (rund 8.100 Zeilen) plus drei kleine Begleitdateien (siehe unten). Sie gehört **nicht** ins Repository, sondern auf den
 eigenen Rechner und in eine Sicherung.
 
 Ohne sie lässt sich die App nicht sinnvoll weiterentwickeln — der gebaute Code ist
@@ -52,6 +53,21 @@ minifiziert und praktisch unlesbar. Das ist schon einmal passiert; die Rückgewi
 eine ganze Arbeitssitzung gekostet.
 
 ### Neu bauen
+
+Der Quelltext besteht aus vier Dateien in `src/`:
+
+| Datei | Inhalt |
+| --- | --- |
+| `App.jsx` | die App (rund 8.100 Zeilen) |
+| `main.jsx` | hängt `App` in `#root` ein (StrictMode), meldet im Browser `sw.js` an |
+| `PitchProTab.jsx` | Reiter „Live“ mit dem Rahmen für `pitch/` |
+| `pitchpro-bridge.js` | Nachrichten mit PitchPro, Ergebnis-Übernahme, Bildschirm-an, Wechselerinnerung |
+
+Dazu `src/styles.css` mit den drei Tailwind-Zeilen und eine `tailwind.config.js`:
+
+```js
+module.exports = { content: ['./src/**/*.{js,jsx}'], theme: { extend: {} }, plugins: [] };
+```
 
 ```bash
 npm install react@18.3.1 react-dom@18.3.1 lucide-react@0.383.0 \
@@ -64,8 +80,9 @@ npx esbuild src/main.jsx --bundle --minify --format=iife --target=es2019 \
 npx tailwindcss -i src/styles.css -o styles.css --minify
 ```
 
-`src/main.jsx` hängt lediglich `App.jsx` in `#root` ein, `src/styles.css` enthält die drei
-Tailwind-Zeilen.
+Mit genau diesen Versionen ist der Bau **reproduzierbar**: Der Quelltext vom 28.08. ergibt
+byte-gleich das damalige `app.js` und `styles.css`. So lässt sich jederzeit prüfen, ob ein
+Quelltext zur ausgelieferten App passt.
 
 ---
 
