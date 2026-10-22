@@ -754,7 +754,7 @@ const BRIDGE_ORIGIN = location.origin && location.origin !== 'null' ? location.o
 let bridgeLastClock = null, bridgeLastReminder = '';
 const bridgeSent = {};   // matchId -> zuletzt gesendeter Stand (JSON)
 const bridgeCaps = { share: false };   // was der Kaderplaner nativ kann (kp:caps)
-const APP_VERSION = '1.0.0';   // gleich halten mit version="..." in config.xml
+const APP_VERSION = '1.0.1';   // gleich halten mit version="..." in config.xml
 const DEFAULT_SETTINGS = { periods: 2, periodMinutes: 25, playersOnField: 7, subIntervalMinutes: 0, fairPlay: false, assists: false };
 
 /* Kennungen: nur Buchstaben, Ziffern, _ und - (sie stehen in data-Attributen) */
@@ -3391,7 +3391,7 @@ function bridgeReminder(now){
   const t = T();
   bridgeSend('pp:reminder', { at, title: t.subDue, text: m ? m.ownName + ' – ' + m.oppName + ': ' + t.notifyText : '' });
 }
-function matchResult(m){
+function kpMatchResult(m){   // Ergebnis fuer den Kaderplaner (nicht verwechseln mit matchResult(m, score))
   const st = derive(m, m.clock.completedMs);
   const so = m.shootout && m.shootout.length ? shootoutScore(m) : null;
   const start = new Set(m.startingIds);
@@ -3419,7 +3419,7 @@ function bridgeAfterSave(force){
     // Gemeldet wird beim Verlassen (go/replace/back rufen die Bruecke).
     // ('new' = gerade beim Anlegen - dort wird gespeichert, bevor die Ansicht wechselt)
     if(m.manual && ansicht && (ansicht.v === 'new' || (ansicht.v === 'live' && ansicht.id === m.id))) return;
-    let r; try { r = matchResult(m); } catch(e){ return; }
+    let r; try { r = kpMatchResult(m); } catch(e){ return; }
     const j = JSON.stringify(r);
     if(!force && bridgeSent[m.id] === j) return;
     bridgeSent[m.id] = j;

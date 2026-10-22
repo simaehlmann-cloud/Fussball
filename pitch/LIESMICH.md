@@ -21,5 +21,5 @@ Nicht ändern – Anpassungen gehören ins Original-Repository.
 
 | | |
 |---|---|
-| Version | PitchPro 1.0.0 mit Kaderplaner-Brücke (Branch `kaderplaner-bridge`) |
-| `index.html` SHA-256 | `da2c61f5811e86b5be80a3b79f6a412902ae8951b1d996df636db9a9a8280ce8` |
+| Version | PitchPro 1.0.1 mit Kaderplaner-Brücke (Fix: doppelte Funktion matchResult) |
+| `index.html` SHA-256 | `330dc8a13a0cce43514c27e843e0e6f7250e72b82e9770569d51339f00866237` |
